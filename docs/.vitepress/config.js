@@ -1,5 +1,6 @@
 export default {
   lastUpdated: true,
+  base: '/repo/',
   lang: 'en-US',
 	editLink: {
 	pattern: 'https://github.com/STiX360/AshenLegacy/edit/main/docs/:path',

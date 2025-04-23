@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magical_rings"
+	group: "39E91E38DCB87D84"
+	id: "2216BEED7ECC1441"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Magical Rings"
+}

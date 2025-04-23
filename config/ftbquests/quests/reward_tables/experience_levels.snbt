@@ -1,0 +1,28 @@
+{
+	id: "4CAF749D7BB607DD"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			type: "xp_levels"
+			weight: 65.0f
+			xp_levels: 5
+		}
+		{
+			type: "xp_levels"
+			weight: 20.0f
+			xp_levels: 15
+		}
+		{
+			type: "xp_levels"
+			weight: 10.0f
+			xp_levels: 30
+		}
+		{
+			type: "xp_levels"
+			weight: 5.0f
+			xp_levels: 45
+		}
+	]
+	title: "Experience Levels"
+}

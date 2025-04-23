@@ -1,0 +1,159 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "frequently_asked_questions_faq"
+	group: "5D4A15FB903C17C7"
+	id: "34349A827E541C0C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This section contains &lFrequently Asked Questions (FAQs)&r by the Ashen Legacy community.  "
+				""
+				"Review of this section will help ensure you understand how important (and not so important) aspects of the mod pack work, as well as some of the rationale behind much of the decision making."
+				""
+				"FAQs are demarked with an ID, to help players reference them to each other in chat."
+			]
+			id: "02E4E7EF05264858"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7EC0BBA9D2757EA9"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "FAQ Overview"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&lQ:&r Why is there no vein miner in the pack?"
+				""
+				"&lA:&r There is!  Vein Miner can be applied as an Enchantment to your Axe or Pickaxe, allowing you to easily chop trees and mine ore veins.  "
+				""
+				"&lRationale:"
+				"We elected to go with this approach on the following basis:"
+				"- not artificially reduce early game resource collection difficulty"
+				"- allow various perk systems to still be viable early- and mid-game selections (e.g. Lumberjack class allows you to fell trees)"
+				"- help balance the pool of available enchantments"
+			]
+			id: "192C6AE2644F5E32"
+			subtitle: "ID: 1"
+			tasks: [{
+				disable_toast: true
+				id: "7F47261D41FD34A8"
+				optional_task: true
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Vein Miner"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&lQ:&r I don't seem to be getting as much loot nor experience when killing a lot of mobs in one place."
+				""
+				"&lA:&r You'd be correct.  As Ashen Legacy has many Aptitudes and other functionality gated behind experience and drops, we have implemented an anti-mob farm capability to reduce the rates of experience and mob drops to help balance the pack."
+			]
+			id: "231BA1A1A023349E"
+			subtitle: "ID: 2"
+			tasks: [{
+				disable_toast: true
+				id: "282382296C285537"
+				optional_task: true
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Mob Farming"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&lQ:&r Why do undead take so little damage?"
+				""
+				"&lA:&r Undead have a damage reduction against most attacks - but we know they fear the sun.  Try setting one alight to negate their protection from slashes and cleaves..."
+			]
+			id: "2FE3A24CEED76389"
+			subtitle: "ID: 3"
+			tasks: [{
+				disable_toast: true
+				id: "032F4FFD7A3928E0"
+				optional_task: true
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Undead Strength"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&lQ:&r Why do some mobs open my doors?"
+				""
+				"&lA:&r Unless you're fighting unintelligent creatures, many enemies are smart enough to work a simple doorhandle."
+				""
+				"Consider using an Iron Door and a Button or such to lock them out."
+			]
+			id: "1C4BDFF47E0874F7"
+			subtitle: "ID: 4"
+			tasks: [{
+				disable_toast: true
+				id: "0B4BC70691DB79E0"
+				optional_task: true
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Break-ins"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&lQ:&r Why is there no cave view on the map by default?"
+				""
+				"&lA:&r Exploration is the name of the game.  Unfortunately, a cave view makes finding special structures too easy, rather than it being a surprise (though some underground structures may still start on the surface...).  "
+				""
+				"Instead, work towards your Structure Compass and keep your ear out for mobs that may be behind shallow walls."
+			]
+			id: "5F1FF2275FF9DCE8"
+			subtitle: "ID: 5"
+			tasks: [{
+				disable_toast: true
+				id: "09DF44AEACBE1FCC"
+				optional_task: true
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Cave View"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&lQ:&r Why am I being slowed?"
+				""
+				"&lA:&r You probably are carrying too many backpacks.  You can carry at most 3 backpacks without being slowed."
+				""
+				"&lRationale:"
+				"This is both a thematic change as as well as a balance pass.  A player shouldn't be able to loot tens of inventories full of items using many low-investment backpacks."
+			]
+			id: "15106881474A0A9C"
+			subtitle: "ID: 6"
+			tasks: [{
+				disable_toast: true
+				id: "372317F22A795422"
+				optional_task: true
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Slowness"
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	title: "&2FAQ"
+}

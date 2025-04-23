@@ -1,0 +1,51 @@
+{
+	autofocus_id: "79FB092BF13DE24B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "troubleshooting"
+	group: "5D4A15FB903C17C7"
+	icon: "skilltree:amnesia_scroll"
+	id: "32FAEE96446E16BE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["As a one time offering, you can receive a free scroll of amnesia to restart your progression."]
+			icon: "skilltree:amnesia_scroll"
+			id: "79FB092BF13DE24B"
+			rewards: [{
+				id: "76C3ED8E08545557"
+				item: "skilltree:amnesia_scroll"
+				type: "item"
+			}]
+			subtitle: "Passive Tree Reset"
+			tasks: [{
+				id: "0B3F618FA4319302"
+				title: "Reset"
+				type: "checkmark"
+			}]
+			title: "New Meta"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["As a one time offering, you can receive a free orb of origins to begin anew as a different race."]
+			icon: "origins:orb_of_origin"
+			id: "014ACFECF93A52D9"
+			rewards: [{
+				id: "6688BFC7B4C5B0A0"
+				item: "origins:orb_of_origin"
+				type: "item"
+			}]
+			subtitle: "Origins Reset"
+			tasks: [{
+				id: "3F09B411C5CDC4FF"
+				type: "checkmark"
+			}]
+			title: "Race Relations"
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	title: "&4Troubleshooting"
+}

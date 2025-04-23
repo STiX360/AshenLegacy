@@ -1,0 +1,17 @@
+#the number of points to give the player upon joining a world for the first time (any whole number)
+DefaultPoints = 5.0
+#if true, the damage needed to get the set amount of points will go up every time you get points
+RampUp = true
+#what is the default amount of damage needed to get points (will stay to what you set if RampUp is false)
+MinRampUpValue = 100.0
+#if RampUp is set to true, how much more damage is needed each time ? (any number)
+RampUpDamage = 100.0
+#the amount of points given each time you deal the needed amount of damage (any number)
+Points = 1.0
+#when will the rampup stop (any number from 0 to 10000)
+MaxRampUpValue = 10000.0
+#add mobs to this followed by a multiplier to make them give you more or less damage when attacking them
+MobMultipliers = ["minecraft:creeper", "1", "dummmmmmy:target_dummy", "0"]
+#the mod will send messages for everything it does so you can see what goes wrong if there's a bug
+Debug = false
+

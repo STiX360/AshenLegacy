@@ -1,0 +1,82 @@
+{
+	autofocus_id: "5AC91E127048AE65"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: ""
+	id: "503DEC2B9B853F84"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The &aworld &fis a &4hostile &fplace. "
+				""
+				"&4Enemies &fincrease in &cstrength &fthe further away from the &aworld &fspawn you travel."
+				""
+				"It is wise to explore areas close to your initial spawn to acquire loot before venturing out to face tougher &4enemies."
+				""
+				"&fHigher level &cenemies &fyield more &2experience &fand at extreme levels will drop &6rare &fitems."
+			]
+			icon: "skilltree:wisdom_scroll"
+			id: "5AC91E127048AE65"
+			rewards: [{
+				count: 5
+				id: "2C36663D09AB00A3"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E65D815736B62E8"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Steps / tasks with a &eGear&f shape are typically either the &astart of a particular chapter, or a link to another chapter&f. In other words, you will usually want to try and open up all gears if your aim is to get access to all chapters."
+				""
+				"Steps / tasks with a &eSquare&f shape are part of the &amain survival guide requirements&f - if your aim is to progress through the pack and skip some of the less critical items, you can &afocus on completing the Square tasks&f first."
+				""
+				"Steps / tasks with a &eCircle&f shape are usually either &atotally optional, or just not critical&f to your continued existence."
+				""
+				"While this is the intent, it may be possible that this does not always hold true... but it hopefully gives you a bit of an idea of how to approach things."
+			]
+			id: "6B1B24C71605D98A"
+			rewards: [{
+				id: "00294486654B4F1F"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "39F9579A60596769"
+				title: "Questing"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"This Survival Guide has been lovingly crafted (even if mainly out of guilt) to help you make a new life for yourself in this barren and somewhat inhospitable land you're stranded in."
+				""
+				"The first thing to note is that it's important to read what we've written. Yes, we do waffle on a bit, but there's usually a point to it. &aIf you skim through, you might miss an important bit of information&f, and die a cold, lonely, horrible death. The choice is yours though."
+				""
+				"Some tasks have fairly long explanations, and even hints in them - &ayou might need to scroll down&f to see it all!"
+				""
+				"To complete a step, you will need to complete the listed tasks. This survival guide will automatically attempt to recognise when you have completed something, but it's attuned to you - so &aensure you hold the item in your inventory for it to be automatically recognised!&f"
+			]
+			id: "5F2A1E6EC9FA7B1B"
+			tasks: [{
+				id: "1CB5FE0658F16AA6"
+				title: "Questing 2"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+	]
+	title: "&2Getting Started"
+}

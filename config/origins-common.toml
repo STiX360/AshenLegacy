@@ -1,0 +1,325 @@
+
+[origins]
+
+	[origins."origins-classes:nitwit"]
+		enabled = true
+
+	[origins."origins:enderian"]
+		enabled = false
+		"origins:throw_ender_pearl" = true
+		"origins:water_vulnerability" = true
+		"origins:pumpkin_hate" = true
+		"origins:extra_reach" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:human"]
+		enabled = true
+
+	[origins."origins-classes:lumberjack"]
+		enabled = true
+		"origins-classes:tree_felling" = true
+		"origins-classes:more_planks_from_logs" = true
+
+	[origins."origins:feline"]
+		enabled = false
+		"origins:fall_immunity" = true
+		"origins:sprint_jump" = true
+		"origins:velvet_paws" = true
+		"origins:nine_lives" = true
+		"origins:weak_arms" = true
+		"origins:scare_creepers" = true
+		"origins:cat_vision" = true
+
+	[origins."origins-classes:warrior"]
+		enabled = true
+		"origins-classes:more_attack_damage" = true
+		"origins-classes:less_shield_slowdown" = true
+
+	[origins."origins:elytrian"]
+		enabled = false
+		"origins:elytra" = true
+		"origins:launch_into_air" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:claustrophobia" = true
+		"origins:more_kinetic_damage" = true
+
+	[origins."origins:shulk"]
+		enabled = false
+		"origins:shulker_inventory" = true
+		"origins:natural_armor" = true
+		"origins:strong_arms" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+
+	[origins."origins-classes:cleric"]
+		enabled = true
+		"origins-classes:potion_bonus" = true
+		"origins-classes:better_enchanting" = true
+
+	[origins."origins-classes:explorer"]
+		enabled = true
+		"origins-classes:explorer_kit" = true
+		"origins-classes:no_sprint_exhaustion" = true
+
+	[origins."origins:merling"]
+		enabled = false
+		"origins:water_breathing" = true
+		"origins:water_vision" = true
+		"origins:aqua_affinity" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:aquatic" = true
+		"origins:conduit_power_on_land" = true
+		"origins:air_from_potions" = true
+
+	[origins."origins:phantom"]
+		enabled = false
+		"origins:phantomize" = true
+		"origins:translucent" = true
+		"origins:phasing" = true
+		"origins:invisibility" = true
+		"origins:burn_in_daylight" = true
+		"origins:hunger_over_time" = true
+		"origins:fragile" = true
+		"origins:phantomize_overlay" = true
+
+	[origins."origins-classes:beastmaster"]
+		enabled = true
+		"origins-classes:tamed_animal_boost" = true
+		"origins-classes:tamed_potion_diffusal" = true
+
+	[origins."origins-classes:merchant"]
+		enabled = true
+		"origins-classes:trade_availability" = true
+		"origins-classes:rare_wandering_loot" = false
+
+	[origins."origins:arachnid"]
+		enabled = false
+		"origins:climbing" = true
+		"origins:master_of_webs" = true
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+
+	[origins."origins-classes:rancher"]
+		enabled = true
+		"origins-classes:twin_breeding" = true
+		"origins-classes:more_animal_loot" = true
+
+	[origins."origins:blazeborn"]
+		enabled = false
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:damage_from_snowballs" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:avian"]
+		enabled = false
+		"origins:slow_falling" = true
+		"origins:fresh_air" = true
+		"origins:like_air" = true
+		"origins:tailwind" = true
+		"origins:lay_eggs" = true
+		"origins:vegetarian" = true
+
+	[origins."origins-classes:archer"]
+		enabled = true
+		"origins-classes:no_projectile_divergence" = true
+		"origins-classes:less_bow_slowdown" = true
+
+	[origins."origins-classes:farmer"]
+		enabled = true
+		"origins-classes:more_crop_drops" = true
+		"origins-classes:better_bone_meal" = true
+
+	[origins."origins-classes:miner"]
+		enabled = true
+		"origins-classes:more_stone_break_speed" = true
+		"origins-classes:no_mining_exhaustion" = true
+
+	[origins."origins-classes:blacksmith"]
+		enabled = true
+		"origins-classes:quality_equipment" = true
+		"origins-classes:efficient_repairs" = true
+
+	[origins."origins-classes:cook"]
+		enabled = true
+		"origins-classes:better_crafted_food" = true
+		"origins-classes:more_smoker_xp" = true
+
+	[origins."origins-classes:rogue"]
+		enabled = true
+		"origins-classes:sneaky" = true
+		"origins-classes:stealth" = true
+		"origins-classes:stealth_core" = true
+
+	[origins."cyclops:cyclops"]
+		enabled = false
+		"cyclops:strength" = true
+		"cyclops:tall" = true
+		"cyclops:armor" = true
+		"cyclops:vision" = true
+
+	[origins."jimsori:lightborn"]
+		enabled = false
+		"jimsori:lightborn/night_vision" = true
+		"jimsori:lightborn/hunger" = true
+		"jimsori:lightborn/health" = true
+
+	[origins."magmin:magmin"]
+		enabled = false
+		"magmin:firedamage" = true
+		"magmin:immunities" = true
+		"magmin:vision" = true
+		"magmin:short" = true
+		"magmin:firewalk" = true
+		"magmin:catchfire" = true
+		"magmin:explode" = true
+		"magmin:health" = true
+		"magmin:water" = true
+
+	[origins."githzerai:githzerai"]
+		enabled = false
+		"githzerai:buffs" = true
+		"githzerai:end" = true
+		"githzerai:invade" = true
+
+	[origins."dryad:dryad"]
+		enabled = false
+		"dryad:respawn" = true
+		"dryad:woodphase" = true
+		"dryad:woodwalk" = true
+		"dryad:weakarmor" = true
+
+	[origins."colinorigin:colin"]
+		enabled = false
+		"colinorigin:affectionate_headbutt" = true
+		"colinorigin:winter_coat" = true
+		"origins:cat_vision" = true
+		"colinorigin:failsafe-detonation" = true
+		"colinorigin:explosion_cooldown" = true
+		"colinorigin:half_health" = true
+		"colinorigin:sunlight_soreness" = true
+		"colinorigin:cooldown_prevention" = true
+
+	[origins."merrow:merrow"]
+		enabled = false
+		"merrow:swim" = true
+		"merrow:health" = true
+		"merrow:armor" = true
+		"merrow:slow" = true
+		"merrow:blind" = true
+		"origins:aqua_affinity" = true
+
+	[origins."invisiblestalker:invisiblestalker"]
+		enabled = false
+		"invisiblestalker:invis" = true
+		"invisiblestalker:fly" = true
+		"invisiblestalker:resistances" = true
+		"invisiblestalker:armor" = true
+		"invisiblestalker:interaction" = true
+		"invisiblestalker:heal" = true
+
+	[origins."gnome:gnome"]
+		enabled = false
+		"gnome:gems" = true
+		"gnome:vision" = true
+		"gnome:short" = true
+
+	[origins."merfolk:merfolk"]
+		enabled = false
+		"merfolk:swim" = true
+		"merfolk:slow" = true
+		"origins:aqua_affinity" = true
+
+	[origins."xorn:xorn"]
+		enabled = false
+		"xorn:swim" = true
+		"xorn:treasure" = true
+		"xorn:armor" = true
+		"xorn:hide" = true
+		"xorn:vision" = true
+		"xorn:food" = true
+		"xorn:tall" = true
+
+	[origins."aarakocra:aarakocra"]
+		enabled = false
+		"aarakocra:flight" = true
+		"aarakocra:wings" = true
+		"aarakocra:damage" = true
+		"aarakocra:sleep" = true
+
+	[origins."jimsori:dragonborn"]
+		enabled = false
+		"jimsori:dragonborn/fire_res" = true
+		"jimsori:dragonborn/armor" = true
+		"jimsori:dragonborn/fly" = true
+		"jimsori:dragonborn/diet" = true
+
+	[origins."specter:specter"]
+		enabled = false
+		"specter:phase" = true
+		"specter:vision" = true
+		"specter:resistances" = true
+		"specter:sun" = true
+		"specter:invis" = true
+
+	[origins."umberhulk:umberhulk"]
+		enabled = false
+		"umberhulk:armor" = true
+		"umberhulk:confusing" = true
+		"umberhulk:vision" = true
+		"umberhulk:tunneler" = true
+		"umberhulk:tall" = true
+
+	[origins."minataur:minataur"]
+		enabled = false
+		"minataur:health" = true
+		"minataur:armor" = true
+		"minataur:charge" = true
+		"minataur:tall" = true
+
+	[origins."animatedarmor:animatedarmor"]
+		enabled = false
+		"animatedarmor:armorhealth" = true
+		"animatedarmor:immunities" = true
+		"animatedarmor:vision" = true
+		"animatedarmor:sink" = true
+
+	[origins."githyanki:githyanki"]
+		enabled = false
+		"githyanki:buffs" = true
+		"githyanki:teleport" = true
+		"githyanki:end" = true
+		"githyanki:invade" = true
+
+	[origins."azer:azer"]
+		enabled = false
+		"azer:firedamage" = true
+		"azer:immunities" = true
+		"azer:vision" = true
+		"azer:firewalk" = true
+		"azer:water" = true
+		"azer:enemy" = true
+
+	[origins."jimsori:darkborn"]
+		enabled = false
+		"jimsori:darkborn/night_vision" = true
+		"jimsori:darkborn/hunger" = true
+		"jimsori:darkborn/health" = true
+
+	[origins."kobold:kobold"]
+		enabled = false
+		"kobold:short" = true
+		"kobold:vision" = true
+		"kobold:pack" = true
+		"kobold:health" = true
+		"kobold:sun" = true
+

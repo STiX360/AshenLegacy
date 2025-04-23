@@ -1,0 +1,215 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "adventure_time"
+	group: "25D3E238ED149444"
+	id: "5CDC8931B2F9C672"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2B08E9E9E021E121"
+			tasks: [{
+				advancement: "minecraft:adventure/root"
+				criterion: ""
+				id: "1233B14713B8894F"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2B08E9E9E021E121"]
+			id: "2DE479372F1F3C18"
+			tasks: [{
+				advancement: "minecraft:adventure/read_power_of_chiseled_bookshelf"
+				criterion: ""
+				id: "5508BB65113D9B01"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2B08E9E9E021E121"]
+			id: "640C398D5A747621"
+			tasks: [{
+				advancement: "minecraft:adventure/spyglass_at_parrot"
+				criterion: ""
+				id: "296A32646754D38A"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["13FE5752B1284D46"]
+			id: "6A02788D5A664801"
+			tasks: [{
+				advancement: "minecraft:adventure/spyglass_at_dragon"
+				criterion: ""
+				id: "30A6B2E007EF75C1"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["640C398D5A747621"]
+			id: "13FE5752B1284D46"
+			tasks: [{
+				advancement: "minecraft:adventure/spyglass_at_ghast"
+				criterion: ""
+				id: "55862CF0DF640455"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B08E9E9E021E121"]
+			id: "20217E9D19F12AC2"
+			tasks: [{
+				advancement: "minecraft:adventure/honey_block_slide"
+				criterion: ""
+				id: "28791E1C737DC1B7"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B08E9E9E021E121"]
+			id: "3F94605A457E42F6"
+			tasks: [{
+				advancement: "nova_structures:root"
+				criterion: ""
+				id: "50EAA3AF7DF5B7B0"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2B08E9E9E021E121"]
+			id: "1A4E388D956E6E98"
+			tasks: [{
+				advancement: "minecraft:adventure/lightning_rod_with_villager_no_fire"
+				criterion: ""
+				id: "5BF00565EA224054"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B08E9E9E021E121"]
+			id: "4CEE0000A50B4409"
+			tasks: [{
+				advancement: "minecraft:adventure/salvage_sherd"
+				criterion: ""
+				id: "5AF968B3CE8AC612"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B08E9E9E021E121"]
+			id: "1DC6F6356AE48BE3"
+			tasks: [{
+				advancement: "minecraft:adventure/avoid_vibration"
+				criterion: ""
+				id: "4E93577DCED2A02A"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B08E9E9E021E121"]
+			id: "48F94091E1D6C4A9"
+			tasks: [{
+				advancement: "artifacts:amateur_archaeologist"
+				criterion: ""
+				id: "7D8006881DE73557"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B08E9E9E021E121"]
+			id: "7537847EB9DC582F"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "06EEC7841BA3EC9A"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B08E9E9E021E121"]
+			id: "236AA70802E37C0E"
+			tasks: [{
+				advancement: "quark:crawl_in_hollow_log"
+				criterion: ""
+				id: "008E98CE582914EC"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B08E9E9E021E121"]
+			id: "27383D557CD74101"
+			tasks: [{
+				advancement: "minecraft:adventure/sleep_in_bed"
+				criterion: ""
+				id: "0E921A57D3D625DE"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2B08E9E9E021E121"]
+			id: "7E01602BAC48AB3F"
+			tasks: [{
+				advancement: "minecraft:adventure/fall_from_world_height"
+				criterion: ""
+				id: "39F8E30BB64CFFE9"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2B08E9E9E021E121"]
+			id: "3FF715608F99F80B"
+			tasks: [{
+				advancement: "nova_structures:adventure/find_tavern"
+				criterion: ""
+				id: "53267E5FCED10FC3"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2B08E9E9E021E121"]
+			id: "65E9B5FA03633137"
+			tasks: [{
+				advancement: "quark:get_bottled_cloud"
+				criterion: ""
+				id: "3897FEA85F8E1BAC"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+	]
+	title: "Adventure Time"
+}

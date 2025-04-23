@@ -1,0 +1,73 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mining"
+	group: "29B81E2E226C5F11"
+	id: "338D7D4CFF28A29F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2DF2D8E20F5B9D8A"
+			rewards: [{
+				id: "2EB9395F93B6187D"
+				item: "library_of_exile:legendary_enchant_tool"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "627B2C819B464F1F"
+				stage: "craftedpickaxe"
+				title: "Craft a Diamond Pickaxe"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "37B1AFAD67BD28C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "647D3699493CEAAD"
+					table_id: 7593709005557234461L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74EB84A86EF4CF5E"
+					table_id: 7593709005557234461L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C6A90D5813D0D99"
+					table_id: 7593709005557234461L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3551F8DF2CC9AF48"
+					table_id: 7593709005557234461L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "16681FE0B6828D90"
+				item: "minecraft:apple"
+				title: "Apple"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+	]
+	title: "Mining"
+}

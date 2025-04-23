@@ -1,0 +1,19 @@
+{
+	id: "6962461B7BEC7B1D"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "test_table"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "minecraft:apple", weight: 0.75f }
+		{ item: "minecraft:crafting_table", weight: 0.25f }
+	]
+	title: "Test Table"
+}

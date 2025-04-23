@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ascending"
+	group: "4F3EEB41244F3DA8"
+	id: "61F34646181585F6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "63065BF0D08DCEAD"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "07B89DCEC2BA2770"
+				ignore_reward_blocking: true
+				stage: "1st Ascendency"
+				team_reward: false
+				title: "Ascend"
+				type: "gamestage"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "0684647C47BB6E68"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ascend"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63065BF0D08DCEAD"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "696C1389EB694FF4"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "16173DCCF689E78B"
+				ignore_reward_blocking: true
+				stage: "2ndAscendency"
+				team_reward: false
+				title: "Ascend"
+				type: "gamestage"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "58589917552200F6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ascend"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["696C1389EB694FF4"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "61FF66CF004BA0F5"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5873F50E36CB4475"
+				ignore_reward_blocking: true
+				stage: "3rdAscendency"
+				team_reward: false
+				title: "Ascend"
+				type: "gamestage"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "5174E47A4755750D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ascend"
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	title: "Ascending"
+}

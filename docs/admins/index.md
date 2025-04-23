@@ -6,7 +6,7 @@ Whether you're setting up for a small group of friends or managing a large publi
 
 ## 📂 Contents
 
-- [Getting Started](getting-started.md)  
+- [Getting Started](admins/getting-started.md)  
   Initial setup, minimum specs, server jar selection, and general installation instructions.
 
 - [Performance Tweaks](performance-tweaks.md)  

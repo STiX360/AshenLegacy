@@ -1,0 +1,16 @@
+{
+  "ashenlegacy.chat.first_start_message": "Welcome to Ashen Legacy! We have friendly Discord community to chat, offer help and support, and share pics and videos.\n",
+  "ashenlegacy.chat.discord_link": "Join the Ashen Legacy Discord community.\u00A7r\n",
+  "ashenlegacy.chat.update_notice": "Thanks for alpha testing Ashen Legacy v0.01!\u00A7r  Please report any bugs you find to the Ashen Legacy Discord community.\u00A7r\n",
+
+  "ashenlegacy.tooltip.backpack": "Contains 18 inventory slots and 1 upgrade slot.",
+  "ashenlegacy.tooltip.iron_backpack": "Contains 27 inventory slots and 2 upgrade slots.",
+  "ashenlegacy.tooltip.gold_backpack": "Contains 36 inventory slots and 3 upgrade slots.",
+  "ashenlegacy.tooltip.diamond_backpack": "Contains 54 inventory slots and 5 upgrade slots.",
+  "ashenlegacy.tooltip.netherite_backpack": "Contains 72 inventory slots and 7 upgrade slots.",
+  "ashenlegacy.tooltip.not_implemented": "This item is not yet fully implemented into Ashen Legacy.",
+
+  "ashenlegacy.information.minecraft.crafting_firework_stars": "Firework stars are craftable with Gunpowder, any Dye, and optional Effect items (see the Minecraft Wiki).",
+
+  "sdm.pststage.stageunlock": "You are required to ascend before selecting a sub-class."
+}

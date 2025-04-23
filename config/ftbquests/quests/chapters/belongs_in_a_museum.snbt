@@ -1,0 +1,136 @@
+{
+	autofocus_id: "6A1C9B115C7E22CE"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "belongs_in_a_museum"
+	group: "25D3E238ED149444"
+	icon: "minecraft:chest"
+	id: "7C1BE029CD6953B4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6A1C9B115C7E22CE"]
+			id: "0EEA16DB33A9E321"
+			tasks: [{
+				advancement: "lootr:1cart"
+				criterion: ""
+				id: "18009616CBFF250C"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A1C9B115C7E22CE"]
+			id: "450B709EF5F04833"
+			tasks: [{
+				advancement: "lootr:1shulker"
+				criterion: ""
+				id: "08DB6E750A61C840"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A1C9B115C7E22CE"]
+			id: "67A28AC6A8DABE4D"
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "480A5EBCB6F46276"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A1C9B115C7E22CE"]
+			id: "4FADDD7C5C65B9AE"
+			tasks: [{
+				advancement: "lootr:1barrel"
+				criterion: ""
+				id: "77299FD5360D5B89"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67A28AC6A8DABE4D"]
+			id: "4856747B05EB3655"
+			tasks: [{
+				advancement: "lootr:10loot"
+				criterion: ""
+				id: "4DC617C51514E6D6"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4856747B05EB3655"]
+			id: "2938F8918C27A613"
+			tasks: [{
+				advancement: "lootr:25loot"
+				criterion: ""
+				id: "79839FB4481EEA1A"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2938F8918C27A613"]
+			id: "6479C4999C6043D9"
+			tasks: [{
+				advancement: "lootr:50loot"
+				criterion: ""
+				id: "73008B136DF9D06E"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6479C4999C6043D9"]
+			id: "4ED2881C12C307FC"
+			shape: "pentagon"
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "01528F6DF4C1B223"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67A28AC6A8DABE4D"]
+			id: "4EF65F30E7D08026"
+			shape: "pentagon"
+			tasks: [{
+				advancement: "lootr:social"
+				criterion: ""
+				id: "76C1940D98D3191F"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			id: "6A1C9B115C7E22CE"
+			tasks: [{
+				advancement: "lootr:root"
+				criterion: ""
+				id: "1559D142A60CDDD9"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+	]
+	title: "Loot Goblin"
+}

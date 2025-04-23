@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "foraging__farming"
+	group: "463815A18F87C419"
+	id: "428031026D44868E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Foraging \\& Farming"
+}

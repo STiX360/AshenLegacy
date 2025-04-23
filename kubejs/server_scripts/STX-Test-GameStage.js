@@ -1,0 +1,1 @@
+ItemEvents.crafted('minecraft:diamond_pickaxe', e => e.addGameStage('craftedPickAxe'))

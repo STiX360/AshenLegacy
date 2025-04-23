@@ -1,0 +1,4 @@
+import mods.pststage.PSTStage;
+PSTStage.applySkillStage("1st Ascendency", [<resource:skilltree:main_tree>, <resource:skilltree:new_skill_103>, <resource:skilltree:new_skill_110>, <resource:skilltree:new_skill_118>, <resource:skilltree:new_skill_121>, <resource:skilltree:new_skill_153>]);
+PSTStage.applySkillStage("2nd Ascendency", [<resource:skilltree:main_tree>, <resource:skilltree:new_skill_119>, <resource:skilltree:new_skill_117>, <resource:skilltree:new_skill_109>, <resource:skilltree:new_skill_111>]);
+PSTStage.applySkillStage("3rd Ascendency", [<resource:skilltree:main_tree>, <resource:skilltree:new_skill_129>, <resource:skilltree:new_skill_128>]);

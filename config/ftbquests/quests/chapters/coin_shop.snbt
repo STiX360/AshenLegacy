@@ -1,0 +1,355 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	default_repeatable_quest: true
+	disable_toast: true
+	filename: "coin_shop"
+	group: ""
+	id: "069859B1DF366113"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:item/nether_coin"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/end_coin"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/monster_coin"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/copper_coin"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -5.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "22A615B5A94B5027"
+			optional: true
+			tasks: [{
+				id: "591F666844EB5540"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6C9F7CEC2627321D"
+			tasks: [{
+				id: "230AD8AC13D5DFA0"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "72C82938A2D6486D"
+			tasks: [{
+				id: "6512288F73223240"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "0DB36365EB64C881"
+			tasks: [{
+				id: "62434BC3183BF47A"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "3257DB09AE5BCE67"
+			tasks: [{
+				consume_items: true
+				id: "36AC74136BBF6F82"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "2C29C7A6B20EB78B"
+			tasks: [{
+				id: "22FD54978BD4F591"
+				item: "kubejs:end_coin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "08852A8DC06E6B1F"
+			tasks: [{
+				id: "046A144405E6AF0A"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "6C288580215E139A"
+			tasks: [{
+				id: "4576035C48D9A067"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: "ringsofascension:ring_fire_resistance"
+			id: "30AF774E4E01C784"
+			ignore_reward_blocking: true
+			optional: true
+			rewards: [{
+				id: "706A9FC967CCD4A9"
+				item: "ringsofascension:ring_fire_resistance"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 15L
+				id: "6B105E4F11DA4E29"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			title: "Ring of Fire Resistance"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			icon: "ringsofascension:ring_lava_sponge"
+			id: "1115C308D5C3691D"
+			optional: true
+			rewards: [{
+				id: "743DD98EAB6AB52B"
+				item: "ringsofascension:ring_lava_sponge"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 45L
+				id: "246499EBA28937EE"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			title: "Ring of Lava Sponge"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			icon: "ringsofascension:ring_wither"
+			id: "06F95A1B1412BCD5"
+			optional: true
+			rewards: [{
+				id: "04ACBDB3EB1C98DB"
+				item: "ringsofascension:ring_wither"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 15L
+				id: "30CE6728D71DA839"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			title: "Ring of Wither"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:fire_resistance"
+				}
+			}
+			id: "737F0B30D355BD30"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "3B7B1CCD46F06271"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "54B4459D4883DE92"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			title: "2x Potion of Fire Resistance (3:00)"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			icon: "ringsofascension:ring_slow_falling"
+			id: "7FAD9B1F55E4664D"
+			optional: true
+			rewards: [{
+				id: "7D6E0A9778724E2F"
+				item: "ringsofascension:ring_slow_falling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "730BA6F2A1E9715D"
+				item: "kubejs:end_coin"
+				type: "item"
+			}]
+			title: "Ring of Slow Falling"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:slow_falling"
+				}
+			}
+			id: "49E042ADABD4DB2F"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "537836C078CBC202"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:slow_falling"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "20B13C0032FB58C3"
+				item: "kubejs:end_coin"
+				type: "item"
+			}]
+			title: "2x Potion of Slow Falling (1:30)"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:experience_bottle"
+			id: "0E9E78939B3D567A"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C29106942E80504"
+				table_id: 5525763487541102557L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0BD584F3A0E614E2"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			title: "Experience Levels"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5ED5852AC88BE70B"
+			optional: true
+			rewards: [{
+				id: "35EFD32F3110A22B"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 15L
+				id: "2495CDFCE30905F4"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "Warp Stone"
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "waystones:warp_scroll"
+			id: "1CECC0353465DF84"
+			optional: true
+			rewards: [{
+				id: "0ED49EC0CDE6C50D"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D311C0B7618E7C2"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "Warp Scroll"
+			x: 5.5d
+			y: -4.5d
+		}
+	]
+	title: "Coin Shop"
+}

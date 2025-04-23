@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "attributes"
+	group: "5D4A15FB903C17C7"
+	id: "22F15499275806EC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: ["The &lHarvesting&r attribute increases certain crop yields (Netherwart, Wheat, etc.) due to the extra care and attention you take when harvesting manually (left click)."]
+		id: "5E4C561EC3FBFCB6"
+		subtitle: "Extra Yield"
+		tasks: [{
+			id: "2EC07EC20001F6C3"
+			title: "Acknowledge"
+			type: "checkmark"
+		}]
+		title: "Harvesting"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Attributes"
+}

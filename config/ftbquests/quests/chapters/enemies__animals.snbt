@@ -1,0 +1,1561 @@
+{
+	autofocus_id: "0FF78A7349730724"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enemies__animals"
+	group: "29B81E2E226C5F11"
+	icon: "minecraft:spawner"
+	id: "3888465E55C2B6BA"
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:item/crossbow_arrow"
+			rotation: 0.0d
+			width: 3.0d
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:item/rotten_flesh"
+			rotation: 0.0d
+			width: 2.5d
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:item/bone"
+			rotation: 0.0d
+			width: 2.5d
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:item/quartz"
+			rotation: 0.0d
+			width: 2.5d
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:item/magma_cream"
+			rotation: 0.0d
+			width: 2.5d
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.0d
+			y: -9.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/end_crystal"
+			rotation: 0.0d
+			width: 3.0d
+			x: 16.5d
+			y: -9.5d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:block/sculk_shrieker_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 21.0d
+			y: -9.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.0d
+			y: -10.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/prismarine_shard"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.5d
+			y: -9.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/nautilus_shell"
+			rotation: 0.0d
+			width: 3.0d
+			x: 16.5d
+			y: -3.5d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:item/emerald"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/ender_eye"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/shulker_shell"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/spider_eye"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/gunpowder"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:item/beef"
+			order: 1
+			rotation: 0.0d
+			width: 2.5d
+			x: 16.5d
+			y: 9.5d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:item/honeycomb"
+			rotation: 0.0d
+			width: 2.5d
+			x: 15.5d
+			y: 8.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0EBC359AEF06A792"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "316B5CD4C5FC26C2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.5d
+			y: -7.0d
+		}
+		{
+			id: "6726A7F04B386C31"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_rose"
+				id: "675A141198ED22D7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			id: "083215234C8D97D4"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "minecraft:heart_of_the_sea"
+				id: "5BDA90FA86C5236C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			id: "1E30E5B4A832BC4B"
+			rewards: [{
+				id: "28F84FA42742D0A0"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:allay"
+				id: "549BB97582E65AD1"
+				type: "kill"
+				value: 2L
+			}]
+			x: 19.0d
+			y: 9.5d
+		}
+		{
+			id: "77101652D89CAB54"
+			rewards: [{
+				id: "595630468CA376FF"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:axolotl"
+				id: "12BCFA125013BBA3"
+				type: "kill"
+				value: 5L
+			}]
+			x: 18.0d
+			y: 9.5d
+		}
+		{
+			id: "3AA7349604E11D92"
+			rewards: [{
+				id: "17603136E6C0C2A6"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:bat"
+				id: "09EA84B9D9F44886"
+				type: "kill"
+				value: 5L
+			}]
+			x: 20.0d
+			y: 10.5d
+		}
+		{
+			id: "2772CBFBD0F3DE7F"
+			rewards: [{
+				id: "3E06E7BB9E19C7E4"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:camel"
+				id: "517B0659FC65B333"
+				type: "kill"
+				value: 100L
+			}]
+			x: 21.5d
+			y: 1.0d
+		}
+		{
+			id: "70738F76B7B4845C"
+			rewards: [{
+				id: "0C2E6FFEC92F0D37"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:cat"
+				id: "22EBDFDB222FB139"
+				type: "kill"
+				value: 8L
+			}]
+			x: 18.0d
+			y: 8.5d
+		}
+		{
+			id: "19C63B139A536400"
+			rewards: [{
+				id: "711815DAF75B8D01"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "5FBCEC0838C61556"
+				type: "kill"
+				value: 20L
+			}]
+			x: 19.0d
+			y: 7.5d
+		}
+		{
+			id: "0ADA6C65AD014563"
+			rewards: [{
+				id: "46A860A79CF6C287"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:cod"
+				id: "7DA4B6E11B42A786"
+				type: "kill"
+				value: 5L
+			}]
+			x: 18.5d
+			y: -4.5d
+		}
+		{
+			id: "01161F1E5DA68CE9"
+			rewards: [{
+				id: "5B1550A6C2840BDD"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "6B7A3B909CEB67E9"
+				type: "kill"
+				value: 20L
+			}]
+			x: 21.0d
+			y: 7.5d
+		}
+		{
+			id: "51FD622B5BFB8D70"
+			rewards: [{
+				id: "4DF403CCF39F2A25"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:donkey"
+				id: "376C45115268AD0D"
+				type: "kill"
+				value: 100L
+			}]
+			x: 20.5d
+			y: 1.0d
+		}
+		{
+			id: "5C2216F68024D8E8"
+			rewards: [{
+				id: "7B852096748366D7"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:frog"
+				id: "0C9110A6B2EA287B"
+				type: "kill"
+				value: 3L
+			}]
+			x: 21.0d
+			y: -2.5d
+		}
+		{
+			id: "02FFFC352862292B"
+			rewards: [{
+				id: "607EE83CC40C14F6"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:glow_squid"
+				id: "146269C6E9752173"
+				type: "kill"
+				value: 5L
+			}]
+			x: 19.5d
+			y: -3.5d
+		}
+		{
+			id: "5473351FEA45FAB5"
+			rewards: [{
+				id: "313EDDBDBC334896"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:horse"
+				id: "0D725EE6AFF614E7"
+				type: "kill"
+				value: 100L
+			}]
+			x: 19.5d
+			y: 1.0d
+		}
+		{
+			id: "069CAC069AD88EF2"
+			rewards: [{
+				id: "2B76B0BDB3B41A20"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:mooshroom"
+				id: "24DF8542B302A8E2"
+				type: "kill"
+				value: 5L
+			}]
+			x: 22.0d
+			y: 7.5d
+		}
+		{
+			id: "3DD5E2AEBE86D049"
+			rewards: [{
+				id: "369C9BC06F0B9B9E"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:mule"
+				id: "00FA1B60D2AF56D9"
+				type: "kill"
+				value: 100L
+			}]
+			x: 18.5d
+			y: 1.0d
+		}
+		{
+			id: "683738DADE00EBB2"
+			rewards: [{
+				id: "189E7E5604C92DB9"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ocelot"
+				id: "3700FADB3112388D"
+				type: "kill"
+				value: 3L
+			}]
+			x: 21.0d
+			y: 9.5d
+		}
+		{
+			id: "206449774FCBCCA2"
+			rewards: [{
+				id: "4D4BB472B28844EA"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:parrot"
+				id: "54D763AFC2753FCA"
+				type: "kill"
+				value: 3L
+			}]
+			x: 20.0d
+			y: 9.5d
+		}
+		{
+			id: "733BB701CC34F10D"
+			rewards: [{
+				id: "68D6067A8FE25196"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "5494C4DD54A0E556"
+				type: "kill"
+				value: 15L
+			}]
+			x: 20.0d
+			y: 7.5d
+		}
+		{
+			id: "126C0BD2FCED6A48"
+			rewards: [{
+				id: "31289E8AB86FBF53"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:pufferfish"
+				id: "1E32A21CECAACB82"
+				type: "kill"
+				value: 3L
+			}]
+			x: 21.5d
+			y: -4.5d
+		}
+		{
+			id: "6C56FD6DD02AA686"
+			rewards: [{
+				id: "2821E6EA09EA56F7"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "36BC014B33A185DA"
+				type: "kill"
+				value: 10L
+			}]
+			x: 22.0d
+			y: 8.5d
+		}
+		{
+			id: "05887BA05929171E"
+			rewards: [{
+				id: "49702D6A4AC6DDD8"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:salmon"
+				id: "139157AA3D44D28C"
+				type: "kill"
+				value: 5L
+			}]
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			id: "5028C72D975F8353"
+			rewards: [{
+				id: "18FBE8ECA59112EB"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "1D69755FC460C154"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			id: "2E39983E18D91A4A"
+			rewards: [{
+				id: "1C345FFEF75BEA63"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:sniffer"
+				id: "446296DE3718B6E0"
+				type: "kill"
+				value: 2L
+			}]
+			x: 21.0d
+			y: 10.5d
+		}
+		{
+			id: "0242671A8564E29C"
+			rewards: [{
+				id: "6DFD2C32505E395F"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:snow_golem"
+				id: "4C2F3E08191EE91B"
+				type: "kill"
+				value: 3L
+			}]
+			x: 18.0d
+			y: 10.5d
+		}
+		{
+			id: "7944FC6D27510AF1"
+			rewards: [{
+				id: "09EFEB8426E3DA77"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:squid"
+				id: "789BB9F6E61D943A"
+				type: "kill"
+				value: 10L
+			}]
+			x: 18.5d
+			y: -3.5d
+		}
+		{
+			id: "3C0F3D0FA954F484"
+			rewards: [{
+				id: "02C873FCAC44B598"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:strider"
+				id: "26D4C3886F640A0D"
+				type: "kill"
+				value: 3L
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			id: "54CB49F7856E090C"
+			rewards: [{
+				id: "29A82C6387A5358E"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:tadpole"
+				id: "49DFA894564D99AE"
+				type: "kill"
+				value: 2L
+			}]
+			x: 20.0d
+			y: -2.5d
+		}
+		{
+			id: "75C6E0C946DD1C01"
+			rewards: [{
+				id: "2D2EB5B4153BF344"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:tropical_fish"
+				id: "1AB48BBE8499B8D4"
+				type: "kill"
+				value: 5L
+			}]
+			x: 20.5d
+			y: -4.5d
+		}
+		{
+			id: "35293F49DD88576F"
+			rewards: [{
+				id: "4B69D3B41B65A32C"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:turtle"
+				id: "63C413F7745C2923"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.5d
+			y: -3.5d
+		}
+		{
+			id: "247D3292020A37E5"
+			rewards: [{
+				id: "3AD1DE62DF80A64B"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:villager"
+				id: "5E2738964FADFF51"
+				type: "kill"
+				value: 100L
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			id: "508F4B8A4F570A2B"
+			rewards: [{
+				id: "16929CC8D403D600"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wandering_trader"
+				id: "71E47879CFEE222C"
+				type: "kill"
+				value: 100L
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			id: "4F23D2DBDF2D077A"
+			rewards: [{
+				id: "72F316743158A706"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "78E2311EB1000DB8"
+				type: "kill"
+				value: 2L
+			}]
+			x: 22.0d
+			y: 10.5d
+		}
+		{
+			id: "431F2FFE5AC19186"
+			rewards: [{
+				id: "670E6E1DCCC7BCDF"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "1CBEF6B57D4D1D2E"
+				type: "kill"
+				value: 10L
+			}]
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			id: "4A4F20AE478B0D14"
+			rewards: [{
+				id: "0AE4CAF8A9615A76"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:dolphin"
+				id: "249CF995FD126535"
+				type: "kill"
+				value: 2L
+			}]
+			x: 20.5d
+			y: -3.5d
+		}
+		{
+			id: "29EA78A211FE5EEC"
+			rewards: [{
+				id: "061467E99EB9D67D"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "7B074A74D269997F"
+				type: "kill"
+				value: 100L
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			id: "35DCA2DE1A187297"
+			rewards: [{
+				id: "07BFA4B5BECAB344"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "70CAE59B4B156979"
+				type: "kill"
+				value: 8L
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			id: "0A032199655F6FE6"
+			rewards: [{
+				id: "64E91A696D51EA53"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:llama"
+				id: "7AD2982B6F106FEC"
+				type: "kill"
+				value: 5L
+			}]
+			x: 19.0d
+			y: 8.5d
+		}
+		{
+			id: "77FD51FD00CFB6F3"
+			rewards: [{
+				id: "5541F1EBD1E63B46"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				id: "53472F19A3006902"
+				type: "kill"
+				value: 100L
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			id: "03AF8FA514E363ED"
+			rewards: [{
+				id: "11281AF8A5091EB3"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "7784C59E3F1137E4"
+				type: "kill"
+				value: 3L
+			}]
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			id: "708C6C2880F53C5D"
+			rewards: [{
+				id: "3AC10ED0F0BF9D06"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "63E468234A6906D5"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			id: "00F60C80D1FC04D1"
+			rewards: [{
+				id: "3293335381B73B5B"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "3DE737B542D54CF7"
+				type: "kill"
+				value: 5L
+			}]
+			x: 19.0d
+			y: 10.5d
+		}
+		{
+			id: "79BAD90C4526CDD3"
+			rewards: [{
+				id: "4A9436E282598F0D"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:fox"
+				id: "51E89EC67D825C39"
+				type: "kill"
+				value: 5L
+			}]
+			x: 20.0d
+			y: 8.5d
+		}
+		{
+			id: "326C759BA16FBECF"
+			rewards: [{
+				id: "00A0909DC71BABAD"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:goat"
+				id: "4967E28E67151A58"
+				type: "kill"
+				value: 5L
+			}]
+			x: 21.0d
+			y: 8.5d
+		}
+		{
+			id: "3A9101E56E363E59"
+			rewards: [{
+				id: "170ADEE66485B77D"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:iron_golem"
+				id: "22C278AB4B764D20"
+				type: "kill"
+				value: 100L
+			}]
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			id: "1E61B78162F779F5"
+			rewards: [{
+				id: "419789C27AF10818"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:panda"
+				id: "1BAD34B2B6F5AD39"
+				type: "kill"
+				value: 2L
+			}]
+			x: 22.0d
+			y: 9.5d
+		}
+		{
+			id: "4DE90BCBE25CFC2E"
+			rewards: [{
+				id: "3B7AE9553B12757E"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "1EE62ED781F12242"
+				type: "kill"
+				value: 12L
+			}]
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			id: "3D1C0185CC00FFD4"
+			rewards: [{
+				id: "4352616D19EC6A61"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "676B2078E301C620"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			id: "5707FDC3A4170C6E"
+			rewards: [{
+				id: "227B3B076ED486CC"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "52561F7408B60EDC"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			id: "748E76DFCBA23F32"
+			rewards: [{
+				id: "4E520A841B091A61"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "7AFE30C35EE637ED"
+				type: "kill"
+				value: 15L
+			}]
+			x: 10.0d
+			y: 8.5d
+		}
+		{
+			id: "060AE87B70E6C320"
+			rewards: [{
+				id: "1410AD1DE6188234"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "668D6F710021F4CD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			id: "40120573B18225B2"
+			rewards: [{
+				id: "42AC5A8E9ABD6D00"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "1236CC198A08A95E"
+				type: "kill"
+				value: 5L
+			}]
+			x: 20.5d
+			y: 4.0d
+		}
+		{
+			id: "5E62E2A58357CC85"
+			rewards: [{
+				id: "3FE6B5E19C549CAF"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "3C088567D44F1C22"
+				type: "kill"
+				value: 5L
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			id: "282397A508D61F97"
+			rewards: [{
+				id: "0A1BBF28143C9B43"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "0D3E5A66198990A5"
+				type: "kill"
+				value: 10L
+			}]
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			id: "51FD6F491A39EA12"
+			rewards: [{
+				id: "0B3F2202784AAD3C"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "4B2226F4D5B94F06"
+				type: "kill"
+				value: 5L
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			id: "28B071AD29369A9C"
+			rewards: [{
+				id: "470BFB5C40032F31"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "7B36312BD8AA83B7"
+				type: "kill"
+				value: 100L
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			id: "6B3C5FA660779CCB"
+			rewards: [{
+				id: "2D94BE1BC2CA895C"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "3CA877E0E63A4F8B"
+				type: "kill"
+				value: 12L
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			id: "77ABE6E871DE1EB6"
+			rewards: [{
+				id: "34EB5012315DC0AF"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:phantom"
+				id: "0EF9FDEA47041D8D"
+				type: "kill"
+				value: 100L
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			id: "59B033F915C81443"
+			rewards: [{
+				id: "0F32A9E7736BA6AC"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "6B3637969B3885C8"
+				type: "kill"
+				value: 5L
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			id: "003713F49565B1BA"
+			rewards: [{
+				id: "44847F2A4329E6EE"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "7E792586672CDCC3"
+				type: "kill"
+				value: 10L
+			}]
+			x: 18.5d
+			y: 4.0d
+		}
+		{
+			id: "7341C1C96983E575"
+			rewards: [{
+				id: "14A269F2381BF771"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ravager"
+				id: "441C6FB6AA3867A9"
+				type: "kill"
+				value: 3L
+			}]
+			x: 18.5d
+			y: 5.0d
+		}
+		{
+			id: "0A84D33F7EA705A3"
+			rewards: [{
+				id: "249BB48C1B9BF637"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "615F2AD6A869C2EB"
+				type: "kill"
+				value: 5L
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			id: "08B53289E342E175"
+			rewards: [{
+				id: "7BDA0513068BC846"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:silverfish"
+				id: "0BCC71C56043DF30"
+				type: "kill"
+				value: 8L
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			id: "4F2DC9BE1709038C"
+			rewards: [{
+				id: "4C2525F454085DBC"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "2A33018542991D02"
+				type: "kill"
+				value: 100L
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			id: "669CB8AD31972AB1"
+			rewards: [{
+				id: "6F80594AEDE90885"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "31849056576AC70C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			id: "109F745F04F90EE4"
+			rewards: [{
+				id: "3ACDDD7A47E493CC"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "742F6A3A8EFF1533"
+				type: "kill"
+				value: 100L
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			id: "1A556BD884357A10"
+			rewards: [{
+				id: "4EC2EF8E1E21DEE6"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:vex"
+				id: "748F5BCDF4BE9D63"
+				type: "kill"
+				value: 12L
+			}]
+			x: 21.5d
+			y: 4.0d
+		}
+		{
+			id: "495F439F51233738"
+			rewards: [{
+				id: "26396F4E30D9CF6E"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "7ED23D8B2D7E70DA"
+				type: "kill"
+				value: 8L
+			}]
+			x: 19.5d
+			y: 4.0d
+		}
+		{
+			id: "6697C57A754140F1"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "503FF47339848697"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.0d
+			y: -7.0d
+		}
+		{
+			id: "18FA778536C11CF0"
+			rewards: [{
+				id: "1CA86EF76A405596"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "75F39F9D871F1F80"
+				type: "kill"
+				value: 5L
+			}]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			id: "720F6AC12F883C5D"
+			rewards: [{
+				id: "21ED9161991D1BFC"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "0B73ABCF1E4BA8AA"
+				type: "kill"
+				value: 8L
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			id: "0FF78A7349730724"
+			rewards: [{
+				id: "0B85D306046B46A8"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zoglin"
+				id: "469C738AA120B959"
+				type: "kill"
+				value: 100L
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			id: "62B4059A59B403EB"
+			rewards: [{
+				id: "57265112F8E99497"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "0A656D70DFD35846"
+				type: "kill"
+				value: 100L
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			id: "2736540CAD1E38E4"
+			rewards: [{
+				id: "25A6BA32426A911B"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie_villager"
+				id: "7DC00CD4D75FA13B"
+				type: "kill"
+				value: 100L
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			id: "14634FBD48EA847E"
+			rewards: [{
+				id: "264D7A4FA1E4D621"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:illusioner"
+				id: "204B83CCDE78AB36"
+				type: "kill"
+				value: 5L
+			}]
+			x: 19.5d
+			y: 5.0d
+		}
+		{
+			id: "367570ADB7616F0D"
+			rewards: [{
+				id: "3303DD01097FAAEF"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "takesapillage:legioner"
+				id: "15E739BBCDAAA430"
+				type: "kill"
+				value: 8L
+			}]
+			x: 21.5d
+			y: 5.0d
+		}
+		{
+			id: "1F773D4ADDAC596B"
+			rewards: [{
+				id: "0DA2D46616A38BDB"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "takesapillage:skirmisher"
+				id: "05B965A4E2934E07"
+				type: "kill"
+				value: 5L
+			}]
+			x: 20.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"40120573B18225B2"
+				"367570ADB7616F0D"
+				"1A556BD884357A10"
+				"1F773D4ADDAC596B"
+				"14634FBD48EA847E"
+				"495F439F51233738"
+				"003713F49565B1BA"
+				"7341C1C96983E575"
+			]
+			id: "0C9F724EFE435DA7"
+			tasks: [{
+				id: "6B653E3389AD2CB3"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2736540CAD1E38E4"
+				"62B4059A59B403EB"
+				"4F2DC9BE1709038C"
+				"28B071AD29369A9C"
+				"29EA78A211FE5EEC"
+				"77ABE6E871DE1EB6"
+				"109F745F04F90EE4"
+			]
+			id: "00F8CD5053F7A1BD"
+			tasks: [{
+				id: "65E8AA63E58B6AA4"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3C0F3D0FA954F484"
+				"59B033F915C81443"
+				"5E62E2A58357CC85"
+				"6B3C5FA660779CCB"
+				"720F6AC12F883C5D"
+				"708C6C2880F53C5D"
+				"3D1C0185CC00FFD4"
+				"5707FDC3A4170C6E"
+				"51FD6F491A39EA12"
+				"0FF78A7349730724"
+			]
+			id: "08DEBB965BD2A58C"
+			tasks: [{
+				id: "606886355FB1B853"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"02FFFC352862292B"
+				"75C6E0C946DD1C01"
+				"35293F49DD88576F"
+				"282397A508D61F97"
+				"5C2216F68024D8E8"
+				"7944FC6D27510AF1"
+				"126C0BD2FCED6A48"
+				"0ADA6C65AD014563"
+				"54CB49F7856E090C"
+				"4A4F20AE478B0D14"
+				"05887BA05929171E"
+			]
+			id: "66C5697297498845"
+			tasks: [{
+				id: "49B87711F28F6C86"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"247D3292020A37E5"
+				"3DD5E2AEBE86D049"
+				"508F4B8A4F570A2B"
+				"3A9101E56E363E59"
+				"5473351FEA45FAB5"
+				"77FD51FD00CFB6F3"
+				"51FD622B5BFB8D70"
+				"2772CBFBD0F3DE7F"
+			]
+			id: "526E21FD2788FB04"
+			tasks: [{
+				id: "2E5A0FAC035F8703"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0242671A8564E29C"
+				"3AA7349604E11D92"
+				"1E61B78162F779F5"
+				"733BB701CC34F10D"
+				"0A032199655F6FE6"
+				"79BAD90C4526CDD3"
+				"19C63B139A536400"
+				"01161F1E5DA68CE9"
+				"5028C72D975F8353"
+				"77101652D89CAB54"
+				"70738F76B7B4845C"
+				"4F23D2DBDF2D077A"
+				"069CAC069AD88EF2"
+				"2E39983E18D91A4A"
+				"6C56FD6DD02AA686"
+				"326C759BA16FBECF"
+				"206449774FCBCCA2"
+				"00F60C80D1FC04D1"
+				"1E30E5B4A832BC4B"
+				"683738DADE00EBB2"
+			]
+			id: "44089DD3F76BE57A"
+			tasks: [{
+				id: "65407B3CADA6B0A1"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"060AE87B70E6C320"
+				"35DCA2DE1A187297"
+				"0A84D33F7EA705A3"
+			]
+			id: "11678942F8C77DD1"
+			tasks: [{
+				id: "72B8C526FDBF7216"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4DE90BCBE25CFC2E"
+				"748E76DFCBA23F32"
+				"03AF8FA514E363ED"
+				"431F2FFE5AC19186"
+				"669CB8AD31972AB1"
+				"08B53289E342E175"
+				"18FA778536C11CF0"
+			]
+			id: "35442482CB4D3431"
+			tasks: [{
+				id: "450ED11EE44D07CE"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 9.5d
+		}
+	]
+	title: "Friends \\& Foes"
+}

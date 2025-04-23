@@ -1,1 +1,28 @@
-.obsidian/
+## docs ignore
+docs/.obsidian/
+node_modules/
+
+## modpack ignore folders
+.mixin.out/
+.vscode/
+crash-reports/
+downloads/
+fancymenu_data/
+logs/
+mods/
+resourcepacks/
+saves/
+screenshots/
+shaderpacks/
+skilltree/
+local/
+
+## modpack ignore files
+*.bak
+.curseclient
+usercache.json
+usernamecache.json
+.qmenu_opened.marker
+rhino.local.properties
+knownkeys.txt
+kubejs/sever_scripts/STX-Reference-Coins.js

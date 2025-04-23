@@ -1,0 +1,119 @@
+{
+	autofocus_id: "3B22C86B1245DA20"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cave_biomes"
+	group: "25D3E238ED149444"
+	icon: "yungscavebiomes:layered_ancient_sandstone"
+	id: "4714667A0AE906BD"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3B22C86B1245DA20"]
+			disable_toast: true
+			id: "66885A1563FFF20D"
+			tasks: [{
+				advancement: "yungscavebiomes:lost_caves"
+				criterion: ""
+				id: "4648A4ED5457D1A6"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66885A1563FFF20D"]
+			disable_toast: true
+			id: "253F0FB87C4A8FEF"
+			tasks: [{
+				advancement: "yungscavebiomes:sandstorm_end"
+				criterion: ""
+				id: "78C0AA13A058298F"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66885A1563FFF20D"]
+			disable_toast: true
+			id: "438D86A24BB78835"
+			tasks: [{
+				advancement: "yungscavebiomes:the_snack_that_bites_back"
+				criterion: ""
+				id: "1A5F2D4BA2C07E57"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B22C86B1245DA20"]
+			disable_toast: true
+			id: "2EEB9930386E9A43"
+			tasks: [{
+				advancement: "yungscavebiomes:frosted_caves"
+				criterion: ""
+				id: "3EA46B614FE21C1D"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2EEB9930386E9A43"]
+			disable_toast: true
+			id: "710E30AB2974407C"
+			tasks: [{
+				advancement: "yungscavebiomes:frost_potion"
+				criterion: ""
+				id: "1B91F3C54DA1DAF7"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2EEB9930386E9A43"]
+			disable_toast: true
+			id: "06ED7FF9473904E6"
+			tasks: [{
+				advancement: "yungscavebiomes:mine_enchanted_ice"
+				criterion: ""
+				id: "7FF2FC5B7D826FD7"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66885A1563FFF20D"]
+			disable_toast: true
+			id: "1F38B62E6C304716"
+			tasks: [{
+				advancement: "yungscavebiomes:poke_the_cactus"
+				criterion: ""
+				id: "1B6310A92BD5A7FC"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "3B22C86B1245DA20"
+			subtitle: "Explore the underground..."
+			tasks: [{
+				advancement: "yungscavebiomes:root"
+				criterion: ""
+				id: "7E386A7A33710E5E"
+				type: "advancement"
+			}]
+			title: "Cave Biomes"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Roaming the Biomes"
+}

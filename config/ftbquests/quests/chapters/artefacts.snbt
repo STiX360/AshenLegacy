@@ -1,0 +1,765 @@
+{
+	autofocus_id: "140FE286DAAD3903"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artefacts"
+	group: "39E91E38DCB87D84"
+	id: "41BF2A64FD0DC0DA"
+	images: [
+		{
+			color: 0
+			height: 2.0d
+			image: "curios:slot/empty_hands_slot"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			color: 0
+			height: 2.0d
+			image: "curios:slot/empty_necklace_slot"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			color: 0
+			height: 2.0d
+			image: "curios:slot/empty_head_slot"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			color: 0
+			height: 2.0d
+			image: "curios:slot/empty_belt_slot"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			color: 0
+			height: 2.0d
+			image: "minecraft:item/empty_armor_slot_boots"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			color: 0
+			height: 2.0d
+			image: "curios:slot/empty_curio_slot"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Functions as a durability-free shield that also slows your fall while held."
+				""
+				"🎯 &oFound in buried treasure, pyramids, and village tanneries. Can also be excavated from desert wells.&r"
+			]
+			id: "16D63DD2BA925FE5"
+			subtitle: "The weather may be harsh. Your descent doesn't have to be."
+			tasks: [{
+				id: "2F0B50EC02CBF4EA"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"This mystical cut of meat never runs out. Eat it, and it cools down instead of disappearing."
+				""
+				"🎯 &oDrops from cows at a 1/500 rate (not affected by Looting). Also found in Bastion Stables and Village Butchers. Cooldown: 15 seconds.&r"
+			]
+			id: "3EDACF7073E96233"
+			subtitle: "Everlasting, but still ever hungry."
+			tasks: [{
+				id: "3735C82825900C5C"
+				item: "artifacts:everlasting_beef"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EDACF7073E96233"]
+			description: ["This mystical cut of meat never runs out. Eat it, and it cools down instead of disappearing."]
+			id: "50E08200F8F732F4"
+			subtitle: "Cursed with convenience. Or maybe blessed."
+			tasks: [{
+				id: "760706554A962D9A"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Reduces drink time by 70% and eat time by 40%."
+				""
+				"🎯 &oFound in mineshafts, buried treasure, nether fortresses, and desert well digs. Rare skeleton hat.&r"
+			]
+			id: "252BA00EF1B2F9A7"
+			subtitle: "Go Team B!"
+			tasks: [{
+				id: "3FD9CA660FD8226B"
+				item: "artifacts:plastic_drinking_hat"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Reduces drink time by 70% and eat time by 40%."
+				""
+				"🎯 &oFound in mineshafts, buried treasure, nether fortresses, and desert well digs. Rare skeleton hat.&r"
+			]
+			id: "4456CCF8F839E829"
+			subtitle: "Go Team A!"
+			tasks: [{
+				id: "1CE4DAF8F56D552C"
+				item: "artifacts:novelty_drinking_hat"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Provides 15 seconds of water breathing."
+				""
+				"🎯 &oFound in shipwrecks, underwater ruins, buried treasure. Worn by drowned. Also found in pyramid archaeology.&r"
+			]
+			id: "01C27FCECB03011C"
+			subtitle: "A breath of fresh air in watery times."
+			tasks: [{
+				id: "1B65704D024909B6"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Grants a small amount of night vision when worn."
+				""
+				"🎯 &oFound in mineshafts, shipwrecks, ruined portals, and desert pyramid archaeology. Rarely worn by skeletons.&r"
+			]
+			id: "62F6A3B05E6B03A2"
+			subtitle: "See what the dark hides — or what hides in the dark."
+			tasks: [{
+				id: "019DD385860330A4"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Decreases villager trade prices."
+				""
+				"🎯 &oFound in villages, igloos, and trail ruins.&r"
+			]
+			id: "4FD7552CE1D26D48"
+			subtitle: "A friend of the people."
+			tasks: [{
+				id: "2CAF63D702099AB2"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Grants +1 Looting level when defeating mobs."
+				""
+				"🎯 &oFound in outposts, strongholds, underwater ruins, mineshafts, and desert well digs.&r"
+			]
+			id: "1FC042A0808E1DC9"
+			subtitle: "Rub your rabbit’s foot. This is better."
+			tasks: [{
+				id: "259F2FF549748B1A"
+				item: "artifacts:superstitious_hat"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Boosts &lmount speed&r."
+				""
+				"🎯 &oFound in nether fortresses, bastions, portals, and pyramids. Rare zombie drop.&r"
+			]
+			id: "2C91D22231B5AF2F"
+			subtitle: "Saddle up. You’re faster now."
+			tasks: [{
+				id: "5EB84419FDAD0052"
+				item: "artifacts:cowboy_hat"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Applies +1 Lure and +1 Luck of the Sea while fishing."
+				""
+				"🎯 &oFound in jungle temples, treasure, tanneries, underwater ruins, and cold ocean digs.&r"
+			]
+			id: "6026485FC8A225C9"
+			subtitle: "Your lucky fishing hat. Proven results."
+			tasks: [{
+				id: "45016F6B76605A6B"
+				item: "artifacts:anglers_hat"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Adds +1 Fortune level when mining blocks."
+				""
+				"🎯 &oFound in treasure, strongholds, igloos, ruins, and cold ocean digs.&r"
+			]
+			id: "17CD686F21BFEE75"
+			subtitle: "The gods smile on your pickaxe."
+			tasks: [{
+				id: "270C4D88833AD4E8"
+				item: "artifacts:lucky_scarf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Grants &linvisibility&r while worn."
+				""
+				"🎯 &oFound in pyramids, shipwrecks, tanneries, outposts. Rare zombie drop.&r"
+			]
+			id: "445301B653EEB775"
+			subtitle: "Now you see me... now, you don’t."
+			tasks: [{
+				id: "3E32C7AED9508049"
+				item: "artifacts:scarf_of_invisibility"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Increases &linvincibility duration after damage&r."
+				""
+				"🎯 &oFound in bastion treasures, fortresses, outposts, underwater ruins.&r"
+			]
+			id: "3D00076F13481DB1"
+			subtitle: "Time stretches after pain."
+			tasks: [{
+				id: "5B005B69F2129026"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Grants &lSpeed&r briefly after taking damage."
+				""
+				"🎯 &oFound in mineshafts, bastions, outposts.&r"
+			]
+			id: "05D2216F07430CEC"
+			subtitle: "Fight or flight? Why not both."
+			tasks: [{
+				id: "48D8E9EFE29B29B7"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Chance to ignite attackers."
+				""
+				"🎯 &oFound in pyramids, bastions, trail ruins. Rare skeleton drop.&r"
+			]
+			id: "2425394938E60CF7"
+			subtitle: "They touch you, they burn."
+			tasks: [{
+				id: "51E9216CEBB3DEEA"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Chance to &ldamage attackers&r."
+				""
+				"🎯 &oFound in pyramids, portals, trail ruins. Rare husk drop.&r"
+			]
+			id: "56FB9A30975E3D47"
+			subtitle: "Hurt me, and get hurt back."
+			tasks: [{
+				id: "78DA1C833DF38AD2"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Grants &lfree movement in water and other fluids&r."
+				""
+				"🎯 &oFound in shipwrecks, pyramids, ancient cities, village temples, and desert wells.&r"
+			]
+			id: "140FE286DAAD3903"
+			subtitle: "Where others sink, you glide."
+			tasks: [{
+				id: "0778AC865BB7BC2F"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Grants the player a double jump."
+				""
+				"🎯 &oFound in outposts, underwater ruins, end cities, mineshafts, and trail ruins.&r"
+			]
+			id: "19EE46892EA955C8"
+			subtitle: "You’re not falling — you’re rebounding."
+			tasks: [{
+				id: "2452FD83C3B59C1A"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Grants 30 seconds of fire resistance after taking fire damage (60s cooldown)."
+				""
+				"🎯 &oFound in portals, mineshafts, shipwrecks, pyramids. Rare piglin drop.&r"
+			]
+			id: "61C1C6F270BB4C65"
+			subtitle: "Touched flame, walked away."
+			tasks: [{
+				id: "2995E25530EE1726"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Greatly &lreduces&r the &lduration of negative status effects&r."
+				""
+				"🎯 &oFound in strongholds, bastions, village temples, and cold ocean archaeology. Rare wither skeleton drop.&r"
+			]
+			id: "3911AFC1E70B3D65"
+			subtitle: "Poison, slowness, nausea... not today."
+			tasks: [{
+				id: "47AFF3C1B5306583"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&lPulls nearby dropped items&r toward the player."
+				""
+				"🎯 &oFound in pyramids, portals, shipwrecks, desert well digs. Rare piglin drop.&r"
+			]
+			id: "22CCE41898D2AC32"
+			subtitle: "Mine now."
+			tasks: [{
+				id: "6A20B1F037CE0372"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Increases &lmaximum health by 5 hearts&r."
+				""
+				"🎯 &oFound in bastions, end cities, and outposts.&r"
+			]
+			id: "0A52A0FBE2BC5A53"
+			subtitle: "Your heart grows stronger."
+			tasks: [{
+				id: "0AD239FC4230BD8C"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"Allows short bursts of air-swimming."
+				""
+				"🎯 &oFound in end cities, ancient cities, strongholds.&r"
+			]
+			id: "3FFB2E68629FA4EE"
+			subtitle: "Defy gravity. Gracefully."
+			tasks: [{
+				id: "1A2BC38878F2728B"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"On fatal hit, teleports player to a random location and is consumed."
+				""
+				"🎯 &oFound in end cities and woodland mansions.&r"
+			]
+			id: "4CADF2566AAA4972"
+			subtitle: "Death? No, just... somewhere else."
+			tasks: [{
+				id: "1D577186B5E1BCF6"
+				item: "artifacts:chorus_totem"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&lIncreases mining speed&r, and base mining level to stone."
+				""
+				"🎯 &oFound in mineshafts, buried treasure, toolsmiths, cold ocean digs.&r"
+			]
+			id: "6A9438ED19099126"
+			subtitle: "Sometimes the best tools... are fingers."
+			tasks: [{
+				id: "7AC569E75155D1FB"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Increases &lattack speed&r."
+				""
+				"🎯 &oFound in shipwrecks, treasure, weaponsmiths, trail ruins.&r"
+			]
+			id: "051A48145CF03456"
+			subtitle: "Strike faster. Stay wilder."
+			tasks: [{
+				id: "23710EC1450C209D"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"All melee attacks deal &l+4 bonus damage&r."
+				""
+				"🎯 &oFound in outposts, portals, strongholds, underwater ruins, pyramids.&r"
+			]
+			id: "578071362D999C14"
+			subtitle: "It’s so bad. (But also good.)"
+			tasks: [{
+				id: "6F28E0219BB0BD98"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Melee attacks &lignite targets&r."
+				""
+				"🎯 &oFound in portals, ruins, bastions. Rare wither skeleton drop. Cold ocean digs.&r"
+			]
+			id: "442B782A48BA2D54"
+			subtitle: "Your punches? Now flammable."
+			tasks: [{
+				id: "0D2F2E9846C430F8"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&lIncreases knockback&r from melee attacks."
+				""
+				"🎯 &oFound in outposts, fortresses, toolsmiths, and trail ruins.&r"
+			]
+			id: "75C3DE4D69E44AAC"
+			subtitle: "Knock 'em back — hard."
+			tasks: [{
+				id: "6537EA7B74FB0177"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Heals &l20% of melee damage dealt&r."
+				""
+				"🎯 &oFound in mineshafts, pyramids, armorers, warm ocean digs. Rare husk drop.&r"
+			]
+			id: "6438C05F2B0701DA"
+			subtitle: "Drain, hit, repeat."
+			tasks: [{
+				id: "2D409C007B1D199B"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Mobs drop &l75% more experience&r when defeated."
+				""
+				"🎯 &oFound in treasure, bastions, shipwrecks. Rare piglin drop.&r"
+			]
+			id: "45E708728BA4DEF7"
+			subtitle: "Your reward? More reward."
+			tasks: [{
+				id: "47FBB00169CF1D74"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Grants &ltemporary Haste&r after eating food."
+				""
+				"🎯 &oFound in villages, mineshafts, pyramids, warm ocean digs. Rare piglin brute drop.&r"
+			]
+			id: "1A4E388CEE29F818"
+			subtitle: "Crunchy. Motivating."
+			tasks: [{
+				id: "4961FA814EE04F4A"
+				item: "artifacts:onion_ring"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&lAuto-smelts mined ores&r."
+				""
+				"🎯 &oFound in mineshafts, bastions, strongholds, ancient cities, trail ruins.&r"
+			]
+			id: "6BEB8D6774902873"
+			subtitle: "Apply heat directly to the ore."
+			tasks: [{
+				id: "4308E806B7BEDE23"
+				item: "artifacts:pickaxe_heater"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Lets you &lsprint across water&r and &llava&r."
+				""
+				"🎯 &oFound in cities, treasure, mineshafts, warm ocean/trail ruins.&r"
+			]
+			id: "2A90345634658AD9"
+			subtitle: "Slick feet. Liquid roads."
+			tasks: [{
+				id: "7EA99D5C38FD516B"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"Boosts &ljump height&r and &lnegates fall damage&r."
+				""
+				"🎯 &oFound in temples, bastions, treasure, tanneries, warm ocean digs. Rare zombie drop.&r"
+			]
+			id: "23368D00934503E8"
+			subtitle: "Soar like a rabbit, land like a feather."
+			tasks: [{
+				id: "3F66D7B87BD5D966"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&l+40% movement speed&r and &lhigher step height while sprinting&r."
+				""
+				"🎯 &oFound in fortresses, shipwrecks, armorers, warm ocean digs.&r"
+			]
+			id: "43E31AEE881EA8AA"
+			subtitle: "Catch me if you can."
+			tasks: [{
+				id: "788D7676DE9DAAE0"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"&lCreepers flee&r from the player."
+				""
+				"🎯 &oFound in temples, tanneries, buried treasure, pyramid digs.&r"
+			]
+			id: "03F8DBBA375AA584"
+			subtitle: "Creepers? More like scaredy cats."
+			tasks: [{
+				id: "357CFF854A45C0DB"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&lWalk on powdered snow&r, and move faster on snowy surfaces."
+				""
+				"🎯 &oFound in igloos, snowy villages, ancient cities, trail ruins. Rare stray drop.&r"
+			]
+			id: "54A6C6FF3FD69B38"
+			subtitle: "Your boots are colder than theirs."
+			tasks: [{
+				id: "73A5F4564FF5875B"
+				item: "artifacts:snowshoes"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&l100% knockback resistance&r and better &lice traction&r."
+				""
+				"🎯 &oFound in bastions, shipwrecks, outposts, armorers, trail ruins. Rare stray drop.&r"
+			]
+			id: "71B6AF5122DBE8D9"
+			subtitle: "Unshoveable. Ice-proof."
+			tasks: [{
+				id: "7E10675601C3681B"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Doubles &lswim speed&r."
+				""
+				"🎯 &oFound in treasure, shipwrecks, underwater ruins. Rare drowned drop.&r"
+			]
+			id: "03B645F4AB85739C"
+			subtitle: "Legs? Who needs legs underwater?"
+			tasks: [{
+				id: "23BD49415801AF1B"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Slowly &lrestores hunger&r when &lwalking on grass&r."
+				""
+				"🎯 &oFound in temples, strongholds, outposts, cities, trail ruins.&r"
+			]
+			id: "251217CE4FE9ABAA"
+			subtitle: "Feet on the ground, belly full."
+			tasks: [{
+				id: "79F602B0B407F841"
+				item: "artifacts:rooted_boots"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Makes a fart noise occasionally when worn. Can be equipped in any slot for maximum mischief."
+				""
+				"🎯 &oFound in pyramids, spawn chests, village tanneries, and trail ruin archaeology.&r"
+			]
+			id: "3B7B4B4D8256A47B"
+			subtitle: "The greatest weapon... is embarrassment."
+			tasks: [{
+				id: "5DA6A3832673DD7A"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			description: ["You may now wear your Totem of Undying as a necklace charm."]
+			id: "5DF1D9153D639BE8"
+			tasks: [{
+				id: "495CCEB3F8BBB996"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+	]
+	title: "Artifacts"
+}

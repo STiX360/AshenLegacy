@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "29B81E2E226C5F11", title: "Exploration" }
+		{ id: "39E91E38DCB87D84", title: "Items" }
+		{ id: "25D3E238ED149444", title: "Advancements" }
+		{ id: "463815A18F87C419", title: "Homestead" }
+		{ id: "4F3EEB41244F3DA8", title: "End-Game" }
+		{ id: "65A824FA50BD57C2", title: "Administrator" }
+		{ id: "5D4A15FB903C17C7", title: "Appendix" }
+	]
+}

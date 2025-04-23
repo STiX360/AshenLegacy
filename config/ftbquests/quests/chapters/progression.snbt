@@ -1,0 +1,543 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: ""
+	id: "333E552BFAD397EE"
+	images: [
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/building/locked_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/building/locked_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/building/locked_16.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/building/locked_24.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/constitution/locked_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/constitution/locked_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/constitution/locked_16.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/constitution/locked_24.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/defense/locked_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/defense/locked_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/defense/locked_16.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/defense/locked_24.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/dexterity/locked_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/dexterity/locked_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/dexterity/locked_16.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/dexterity/locked_24.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/luck/locked_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/luck/locked_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/luck/locked_16.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/luck/locked_24.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/strength/locked_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/strength/locked_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/strength/locked_16.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/strength/locked_24.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/magic/locked_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/magic/locked_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/magic/locked_16.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/magic/locked_24.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/intelligence/locked_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/intelligence/locked_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/intelligence/locked_16.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "justlevelingfork:textures/skill/intelligence/locked_24.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 6.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&n&lDescription&r&r"
+				"Strength is the combat ability to fight enemies with weapons or bare hands. You can level up the aptitude to 32."
+				""
+				"{@pagebreak}"
+				"&n&lPassives&r&r"
+				""
+				"&lAttack Damage&r (Lv.0 to Lv.10)"
+				"- Each level provides +0.3 extra attack damage."
+				"- You require level 5 in Strength for the first point in attack damage, then 3 more levels in Strength for every additional level in this Passive there-of."
+				""
+				"&lAttack Knockback&r (Lv.0 to Lv.5)"
+				"- Each level provides +0.1 extra knockback to enemies."
+				"- You require level 8 in Strenth for the first level in Attack Knockback, then 4 more levels in Stength for every additional level in this Passive there-of."
+				""
+				"{@pagebreak}"
+				"&n&lSkills&r"
+				""
+				"&lOne Handed&r"
+				"- Weapon damage will increase by +0.5 if you only use one hand."
+				"- Level Required: 10"
+				""
+				"&lFighting Spirit&r"
+				"- When you kill an enemy you will gain Strength I for 3 seconds."
+				"- Level Required: 16"
+				""
+				"&lBerserker&r"
+				"- If you have less than or equal to 30% of your maximum health, all your attacks will become critical damage."
+				"- Level Required: 30"
+			]
+			id: "2940051DB181CEA6"
+			rewards: [{
+				id: "2DFD11EE2659CC01"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "29BC15E9B60BE109"
+				title: "Overview"
+				type: "checkmark"
+			}]
+			title: "Strength Overview"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6CF3D1FF47489CCA"]
+			description: [
+				"&l&nStarting Stats:&r&r"
+				""
+				"- &lStrength:&r 10"
+				"- &lConstitution:&r 8"
+				"- &lDefence:&r 4"
+			]
+			id: "6FF5542979198D9E"
+			rewards: [
+				{
+					command: "/aptitudes @p Strength set 10"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4F4D3631604D986D"
+					team_reward: false
+					title: "Grant 10 Strength"
+					type: "command"
+				}
+				{
+					command: "/aptitudes @p Constitution set 8"
+					elevate_perms: true
+					icon: "artifacts:crystal_heart"
+					id: "378358AC06DA64CB"
+					ignore_reward_blocking: true
+					team_reward: false
+					title: "Grant 8 Constitution"
+					type: "command"
+				}
+				{
+					command: "/aptitudes @p Defense set 4"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "11D0C5AB389F1D31"
+					team_reward: false
+					title: "Grant 4 Defense"
+					type: "command"
+				}
+			]
+			subtitle: "Heavy melee fighter who thrives in the front line."
+			tasks: [{
+				id: "207899B6118DE0AD"
+				title: "Warrior"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 12.0d
+		}
+		{
+			id: "6CF3D1FF47489CCA"
+			max_completable_dependents: 1
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "60D58D075CCF9F22"
+				title: "Aptitudes"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6CF3D1FF47489CCA"]
+			id: "23F1AAC147E5EF71"
+			subtitle: "Quick-footed and keen-eyed — excels at survival and ranged combat."
+			tasks: [{
+				id: "12974F485E8B1500"
+				title: "Ranger"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6CF3D1FF47489CCA"]
+			id: "4E41CFE485BE0603"
+			rewards: [{
+				id: "72703ED592CD8151"
+				type: "xp"
+				xp: 2305
+			}]
+			subtitle: "An adventurer carves their own pathway."
+			tasks: [{
+				id: "6D4E2D56C69EA573"
+				title: "Adventurer"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6CF3D1FF47489CCA"]
+			description: [
+				"&l&nStarting Stats:&r&r"
+				""
+				"- &lStrength:&r 10"
+				"- &lConstitution:&r 8"
+				"- &lDefence:&r 4"
+			]
+			id: "2FC8201EE1BA7DD1"
+			rewards: [
+				{
+					command: "/aptitudes @p Magic set 10"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7C6D85FBC4C4FE1D"
+					team_reward: false
+					title: "Grant 10 Magic"
+					type: "command"
+				}
+				{
+					command: "/aptitudes @p Constitution set 8"
+					elevate_perms: true
+					icon: "artifacts:crystal_heart"
+					id: "0AF8E4D448FC4E8C"
+					ignore_reward_blocking: true
+					team_reward: false
+					title: "Grant 8 Constitution"
+					type: "command"
+				}
+				{
+					command: "/aptitudes @p Defense set 4"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6B4FF2B16A9FB5C4"
+					team_reward: false
+					title: "Grant 4 Defense"
+					type: "command"
+				}
+			]
+			subtitle: "Master of the arcane, backed by sharp wits and light durability."
+			tasks: [{
+				id: "64C2E599FAF6B733"
+				title: "Warrior"
+				type: "checkmark"
+			}]
+			title: "Mage"
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6CF3D1FF47489CCA"]
+			description: [
+				"&l&nStarting Stats:&r&r"
+				""
+				"- &lStrength:&r 10"
+				"- &lConstitution:&r 8"
+				"- &lDefence:&r 4"
+			]
+			id: "3FC257CF20E57CEC"
+			rewards: [
+				{
+					command: "/aptitudes @p Strength set 10"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4EC8FC547462EBF6"
+					team_reward: false
+					title: "Grant 10 Strength"
+					type: "command"
+				}
+				{
+					command: "/aptitudes @p Constitution set 8"
+					elevate_perms: true
+					icon: "artifacts:crystal_heart"
+					id: "10446E0A274F22A5"
+					ignore_reward_blocking: true
+					team_reward: false
+					title: "Grant 8 Constitution"
+					type: "command"
+				}
+				{
+					command: "/aptitudes @p Defense set 4"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7761B23F8F16130C"
+					team_reward: false
+					title: "Grant 4 Defense"
+					type: "command"
+				}
+			]
+			subtitle: "Specializes in potion-making, enchanting, and experimenting."
+			tasks: [{
+				id: "412DD6B135596A3E"
+				title: "Warrior"
+				type: "checkmark"
+			}]
+			title: "Alchemist"
+			x: -5.0d
+			y: 12.0d
+		}
+	]
+	title: "Progression"
+}

@@ -1,0 +1,109 @@
+{
+	autofocus_id: "120B62D463826CC5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "explorers_journey"
+	group: "29B81E2E226C5F11"
+	icon: "minecraft:compass"
+	id: "485FA8247EC6E746"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:compass"
+			id: "120B62D463826CC5"
+			rewards: [{
+				id: "77E8E1985409C70C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "01A75873BD0D3B0D"
+				item: "minecraft:compass"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["120B62D463826CC5"]
+			description: ["This useful tool will help you find any biome you desire."]
+			icon: {
+				Count: 1
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+			id: "61DB0E836F3C9A3E"
+			rewards: [{
+				id: "35328529CC06E765"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Nature's Compass"
+			tasks: [{
+				id: "6C2222992A18E152"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Locating Landscapes"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61DB0E836F3C9A3E"]
+			description: ["This item will help you locate structures."]
+			icon: {
+				Count: 1
+				id: "explorerscompass:explorerscompass"
+				tag: { }
+			}
+			id: "44FBAEB21B2A63AE"
+			rewards: [{
+				id: "1CBF2BA11C22FC5A"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Explorer's Compass"
+			tasks: [{
+				id: "2A10225111C411B1"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Locating Landmarks"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44FBAEB21B2A63AE"]
+			id: "71CD8FBD76D770A9"
+			tasks: [{
+				id: "7045D1CA8EE01B1F"
+				item: "minecraft:recovery_compass"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "13CF5F96E6A69D6E"
+			tasks: [{
+				consume_items: false
+				id: "5E1658A8CE50E861"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+	title: "Explorer's Journey"
+}

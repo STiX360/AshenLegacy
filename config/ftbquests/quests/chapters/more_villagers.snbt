@@ -1,0 +1,408 @@
+{
+	autofocus_id: "14DA552A3BF1BFA6"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "more_villagers"
+	group: "25D3E238ED149444"
+	icon: "minecraft:bell"
+	id: "4271D66516E8EEA0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4098DA056DB2EF8F"]
+			id: "2C4F47EA6BD639F0"
+			tasks: [{
+				advancement: "morevillagers:kill_villager"
+				criterion: ""
+				id: "23E46AF3B92B9CA5"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C4F47EA6BD639F0"]
+			id: "25DC63016C8296F9"
+			tasks: [{
+				advancement: "morevillagers:kill_babyvillager"
+				criterion: ""
+				id: "4DD2EEE86D17A610"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4098DA056DB2EF8F"]
+			id: "15E07A246279DA70"
+			tasks: [{
+				advancement: "morevillagers:first_village"
+				criterion: ""
+				id: "378E7D21DD957B77"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["15E07A246279DA70"]
+			id: "34B9A9AAAD5E32D1"
+			tasks: [{
+				advancement: "morevillagers:tame_cat"
+				criterion: ""
+				id: "492F70F6A66F502B"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["15E07A246279DA70"]
+			id: "6039FF1F126FB1D3"
+			shape: "octagon"
+			tasks: [{
+				advancement: "morevillagers:all_villages"
+				criterion: ""
+				id: "48BA5A4D5B9027DC"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4098DA056DB2EF8F"]
+			id: "5A112428CC73B416"
+			tasks: [{
+				advancement: "morevillagers:first_trade"
+				criterion: ""
+				id: "33EC677A3041BBF6"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A112428CC73B416"]
+			id: "414F1AAE18A59DEC"
+			tasks: [{
+				advancement: "morevillagers:nether_trade"
+				criterion: ""
+				id: "561A363DC98329F9"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["414F1AAE18A59DEC"]
+			id: "3C46A30AC6E51709"
+			shape: "octagon"
+			tasks: [{
+				advancement: "morevillagers:map_bastion"
+				criterion: ""
+				id: "45C25D007B80DFB1"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5A112428CC73B416"]
+			id: "3F2A4D5539A3976F"
+			tasks: [{
+				advancement: "morevillagers:buy_map"
+				criterion: ""
+				id: "431DFFAF67109709"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A112428CC73B416"]
+			id: "6C92EE15381498F1"
+			tasks: [{
+				advancement: "morevillagers:master_trade"
+				criterion: ""
+				id: "3072AC7F1776A2EF"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A112428CC73B416"]
+			id: "2703AE5B03E34BC5"
+			tasks: [{
+				advancement: "morevillagers:end_trade"
+				criterion: ""
+				id: "2ACD68C6B7C788AD"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2703AE5B03E34BC5"]
+			id: "0B90647070C69DCF"
+			shape: "pentagon"
+			tasks: [{
+				advancement: "morevillagers:map_endcity"
+				criterion: ""
+				id: "392809E663C99E93"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A112428CC73B416"]
+			id: "4DCE895EDDF3EC89"
+			shape: "octagon"
+			tasks: [{
+				advancement: "morevillagers:all_professions_traded"
+				criterion: ""
+				id: "6B14D49695294FFF"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4098DA056DB2EF8F"]
+			id: "638F9ECDB119D246"
+			tasks: [{
+				advancement: "morevillagers:first_workstation_get"
+				criterion: ""
+				id: "0528968064F90ED8"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["638F9ECDB119D246"]
+			id: "792CDAB0D4D13943"
+			shape: "octagon"
+			tasks: [{
+				advancement: "morevillagers:all_workstations_get"
+				criterion: ""
+				id: "732C5908EC0CDA5D"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "4098DA056DB2EF8F"
+			tasks: [{
+				advancement: "morevillagers:root"
+				criterion: ""
+				disable_toast: true
+				id: "57CC5A95BAA7FDD2"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			disable_toast: true
+			id: "14DA552A3BF1BFA6"
+			tasks: [{
+				advancement: "takesapillage:root"
+				criterion: ""
+				disable_toast: true
+				id: "11294AE11B9FCD49"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["14DA552A3BF1BFA6"]
+			id: "545AB6F9BEBA64D0"
+			tasks: [{
+				advancement: "takesapillage:bastille"
+				criterion: ""
+				id: "3558AD80DD3254E8"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["14DA552A3BF1BFA6"]
+			id: "492822E216FE1F7D"
+			tasks: [{
+				advancement: "takesapillage:pillager_camp"
+				criterion: ""
+				id: "04B135F1A924FD01"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				""
+				"{ \"text\": \"Pre-Requsite Quest\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2B08E9E9E021E121\" } }"
+			]
+			id: "743B7531599A8E98"
+			tasks: [{
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+				id: "2B4108723C6129FC"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["743B7531599A8E98"]
+			id: "0A73876150612B17"
+			tasks: [{
+				advancement: "minecraft:adventure/recruit_guard"
+				criterion: ""
+				id: "6CD9DF66A0909455"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["743B7531599A8E98"]
+			id: "25621614C266AB57"
+			tasks: [{
+				advancement: "minecraft:adventure/summon_iron_golem"
+				criterion: ""
+				id: "236ED19C3173ECCD"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["743B7531599A8E98"]
+			id: "1A5295C95C212965"
+			tasks: [{
+				advancement: "minecraft:adventure/trade_at_world_height"
+				criterion: ""
+				id: "70F6B1010A0FA89D"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2B08E9E9E021E121"]
+			id: "6441952E47991C05"
+			tasks: [{
+				advancement: "minecraft:adventure/voluntary_exile"
+				criterion: ""
+				id: "75D229228C60C2B3"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6441952E47991C05"]
+			id: "03711EE5D2F96548"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "265336C2A1FA39D4"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["03711EE5D2F96548"]
+			id: "44F0E5D4B23BDC95"
+			tasks: [{
+				advancement: "nova_structures:adventure/find_all_illager_structures"
+				criterion: ""
+				id: "32399165443D6F62"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["44F0E5D4B23BDC95"]
+			id: "58E531E93CE65099"
+			tasks: [{
+				advancement: "nova_structures:adventure/loot_illager_hideout"
+				criterion: ""
+				id: "5E5AADAC4A7023FC"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["44F0E5D4B23BDC95"]
+			id: "2D49E502E1EA665E"
+			tasks: [{
+				advancement: "nova_structures:adventure/find_swamp_village"
+				criterion: ""
+				id: "0FFA64226040552B"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["44F0E5D4B23BDC95"]
+			id: "7A08A26B9EFC7E93"
+			tasks: [{
+				advancement: "nova_structures:adventure/find_pillager_outpost"
+				criterion: ""
+				id: "55F1210F1D734A67"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["44F0E5D4B23BDC95"]
+			id: "08C9CA595568BEB9"
+			tasks: [{
+				advancement: "nova_structures:adventure/find_illager_manor"
+				criterion: ""
+				id: "27AAFC367F286211"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["44F0E5D4B23BDC95"]
+			id: "4B599DFCB29E61A9"
+			tasks: [{
+				advancement: "nova_structures:adventure/find_illager_mansion"
+				criterion: ""
+				id: "50F1405E63429712"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["44F0E5D4B23BDC95"]
+			id: "4210AD0D42F0F745"
+			tasks: [{
+				advancement: "nova_structures:adventure/find_witch_villa"
+				criterion: ""
+				id: "7AB7C1D4CBA8DC45"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+	]
+	title: "Village \\& Pillage"
+}

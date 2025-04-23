@@ -1,0 +1,28 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "origins"
+	group: "65A824FA50BD57C2"
+	id: "23C3811AF944A56A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			""
+			"/origin"
+			"/power"
+			"/resource"
+		]
+		icon: "origins:orb_of_origin"
+		id: "6B7F96647305EB62"
+		tasks: [{
+			id: "5B1F98682D62AF5E"
+			title: "Origins"
+			type: "checkmark"
+		}]
+		x: -2.5d
+		y: -1.0d
+	}]
+	title: "Origins"
+}

@@ -1,0 +1,1357 @@
+{
+	autofocus_id: "7FCCA8212D4DD48C"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "minecraft"
+	group: "25D3E238ED149444"
+	icon: "minecraft:grass_block"
+	id: "6215B3928F230A97"
+	images: [
+		{
+			alpha: 155
+			height: 5.0d
+			image: "minecraft:item/ender_eye"
+			rotation: 0.0d
+			width: 5.0d
+			x: 16.5d
+			y: -5.0d
+		}
+		{
+			alpha: 155
+			height: 5.0d
+			image: "minecraft:item/stone_pickaxe"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			alpha: 155
+			height: 5.0d
+			image: "minecraft:item/end_crystal"
+			rotation: 0.0d
+			width: 5.0d
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			alpha: 155
+			height: 5.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -11.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["08A445033CCAC00D"]
+			id: "694CDECBBCCACFE0"
+			rewards: [{
+				id: "55EE52255774259C"
+				item: "kubejs:end_coin"
+				type: "item"
+			}]
+			subtitle: "Or the beginning?"
+			tasks: [{
+				advancement: "minecraft:end/root"
+				criterion: ""
+				id: "6CE43C8D1DBCEDFF"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["694CDECBBCCACFE0"]
+			id: "1A9EBE341B0143F7"
+			rewards: [{
+				id: "3F61A1CDD148F68B"
+				item: "kubejs:end_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "2DDA1243D96832D1"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A9EBE341B0143F7"]
+			id: "5565A82140A36F25"
+			rewards: [{
+				count: 2
+				id: "0B88937D1E200EC9"
+				item: "kubejs:end_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				advancement: "minecraft:end/dragon_breath"
+				criterion: ""
+				id: "7BE32B2EB6091EBE"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A9EBE341B0143F7"]
+			id: "2DAB69517DD18005"
+			rewards: [{
+				count: 2
+				id: "0AA5E23D47358A6C"
+				item: "kubejs:end_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "3DBF7DA3F6725CEA"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A9EBE341B0143F7"]
+			id: "00DDE051B7F3BC30"
+			rewards: [{
+				count: 2
+				id: "6FF1CCBFE909CAF4"
+				item: "kubejs:end_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+				id: "5171A321F9FCD063"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A9EBE341B0143F7"]
+			id: "36DF56A3635C0CD6"
+			rewards: [{
+				id: "1C0D462709635D28"
+				item: "kubejs:end_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "4724BB3F390DB141"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["36DF56A3635C0CD6"]
+			id: "287369085972B1F9"
+			rewards: [{
+				count: 2
+				id: "02669EFB8A2E0A37"
+				item: "kubejs:end_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				advancement: "quark:use_viaduct"
+				criterion: ""
+				id: "5AF8FC78CF577B82"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36DF56A3635C0CD6"]
+			id: "39A270931B70B2E4"
+			rewards: [{
+				id: "605023E7CDD875DD"
+				item: "kubejs:end_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				id: "539AFA45EB62905B"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39A270931B70B2E4"]
+			id: "07ACD380D979057D"
+			rewards: [{
+				count: 2
+				id: "4508FCF20CC04C52"
+				item: "kubejs:end_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				advancement: "minecraft:end/elytra"
+				criterion: ""
+				id: "20FF3CACED390108"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39A270931B70B2E4"]
+			id: "21023D95FB58CD1E"
+			rewards: [{
+				count: 5
+				id: "39113231A00DAC6A"
+				item: "kubejs:end_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:end/levitate"
+				criterion: ""
+				id: "4914BB3C9D45B1FE"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Make or obtain a Crafting Table. "
+				""
+				"{image:minecraft:block/crafting_table_front width:16 height:16 align:center}"
+			]
+			id: "1C2B239BACD5D01D"
+			rewards: [{
+				id: "313253D37D83CCBA"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "The heart and story of the game."
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "785947ACA1C7DE6B"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C2B239BACD5D01D"]
+			id: "0E97EA8C928B09C3"
+			rewards: [{
+				id: "20006E727EC28210"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/mine_stone"
+				criterion: ""
+				id: "63D752573E0D76A4"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E97EA8C928B09C3"]
+			id: "65F303ED16CA6F01"
+			rewards: [{
+				id: "36E4CAB519085979"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/upgrade_tools"
+				criterion: ""
+				id: "588E4DEB54207CF1"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["348C446B1F173B74"]
+			id: "6FC0BB86B9B18C7B"
+			rewards: [{
+				id: "5AD77ED5D9054404"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/lava_bucket"
+				criterion: ""
+				id: "044FD12A9AEC4A36"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["348C446B1F173B74"]
+			id: "3BC7A59E52CA0375"
+			rewards: [{
+				count: 5
+				id: "2B7B2B33361FBEA2"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "quark:get_all_corundum"
+				criterion: ""
+				id: "23A7A6A8B2888A63"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["348C446B1F173B74"]
+			id: "2E5BF732CF8160AC"
+			rewards: [{
+				id: "1544947037C363AF"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/obtain_armor"
+				criterion: ""
+				id: "3D3163A4E7E9822A"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["348C446B1F173B74"]
+			id: "5427A5EE3A36F2E5"
+			rewards: [{
+				id: "01EEB2EB6011B4F3"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/iron_tools"
+				criterion: ""
+				id: "735866E9D80B0495"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["26D4418C5D45A275"]
+			id: "4F52E77089824ABB"
+			rewards: [{
+				id: "4F96CE8C01E32D09"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "7E80AE4B257D4519"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F52E77089824ABB"]
+			id: "004939B68381ACC8"
+			rewards: [{
+				count: 2
+				id: "0DE1B0C69229CC37"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+				id: "3D16290C39FE464C"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F52E77089824ABB"]
+			id: "758E4A6ACC789491"
+			rewards: [{
+				id: "3C6C8B23F28DD998"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/follow_ender_eye"
+				criterion: ""
+				id: "74A35967184BB117"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["758E4A6ACC789491"]
+			id: "08A445033CCAC00D"
+			rewards: [{
+				id: "74CF4A25F4FA7CCE"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "7F00A1C564AD0572"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E5BF732CF8160AC"]
+			id: "18AF9B17420F178B"
+			rewards: [{
+				id: "1220F6B8AB4CC568"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/deflect_arrow"
+				criterion: ""
+				id: "4298B44FDEAFC81E"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F709D28364A24DE"]
+			id: "1C337E8B787ECC19"
+			rewards: [{
+				id: "6395B84BDA385A9D"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/shiny_gear"
+				criterion: ""
+				id: "3087955894FFDA84"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5427A5EE3A36F2E5"]
+			id: "5F709D28364A24DE"
+			rewards: [{
+				id: "59942AD5E2D730CB"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+				id: "6DD3FDF378FA0C6B"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5F709D28364A24DE"]
+			id: "5D29E17B1DB44148"
+			rewards: [{
+				id: "261EDF3015F5424A"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+				id: "2733212759B1C6A4"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D29E17B1DB44148"]
+			id: "095A45054346899C"
+			rewards: [{
+				id: "73CB88DD592607AC"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "quark:overlevel_enchant"
+				criterion: ""
+				id: "466CEB7DBB8D994F"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D29E17B1DB44148"]
+			id: "2BE186B328238F69"
+			rewards: [{
+				id: "7AF096C3AFB951E6"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "quark:apply_color_rune"
+				criterion: ""
+				id: "3499BBE7D5DD545A"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D29E17B1DB44148"]
+			id: "3FC0ECA19B5EDE08"
+			rewards: [{
+				count: 5
+				id: "786C85CF77C5E899"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "majruszsenchantments:scholar"
+				criterion: ""
+				id: "41AE870AA22BAA2B"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2BE186B328238F69"]
+			id: "3344C4640DC845C2"
+			rewards: [{
+				count: 5
+				id: "304D9F5AEBE5F5EF"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "quark:wear_full_rainbow"
+				criterion: ""
+				id: "53D30D1733F7AFCC"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["095A45054346899C"]
+			id: "3103F7E6AC6ECFA1"
+			rewards: [{
+				count: 5
+				id: "70E47C6BB262AB4C"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "quark:instamine_deepslate"
+				criterion: ""
+				id: "4B753C4207060F15"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6FC0BB86B9B18C7B"]
+			id: "26D4418C5D45A275"
+			rewards: [{
+				id: "1D0FBC939D6E3C6E"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/form_obsidian"
+				criterion: ""
+				id: "211E627D3C9CEB8F"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F52E77089824ABB"]
+			id: "7FCCA8212D4DD48C"
+			rewards: [{
+				id: "0A3881C2C3A26F11"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			subtitle: "Bring summer clothes."
+			tasks: [{
+				advancement: "minecraft:nether/root"
+				criterion: ""
+				id: "14C9884F30ABA766"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FCCA8212D4DD48C"]
+			id: "7D7B0A6CB17DEE21"
+			rewards: [{
+				count: 5
+				id: "249181612C360188"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:nether/return_to_sender"
+				criterion: ""
+				id: "4C6DF6857DF78537"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7FCCA8212D4DD48C"]
+			id: "61C71EF87925E0BC"
+			rewards: [{
+				id: "7CF42959ACC33CE2"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "067F18CE3BDF5E18"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7FCCA8212D4DD48C"]
+			id: "24B6CF704034701B"
+			rewards: [{
+				count: 5
+				id: "5EA349269EE29521"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:nether/fast_travel"
+				criterion: ""
+				id: "412D6285330FAD08"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7FCCA8212D4DD48C"]
+			id: "640A5C49508DB58C"
+			rewards: [{
+				id: "02E5714BE1FA7268"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/obtain_ancient_debris"
+				criterion: ""
+				id: "201E3E47B49C7E68"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7FCCA8212D4DD48C"]
+			id: "0B1DF540CF8A76A2"
+			rewards: [{
+				id: "63B605B42C7309E8"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+				id: "6B8A3E95369B0C8A"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7FCCA8212D4DD48C"]
+			id: "6E7CF4DFB9DB4814"
+			rewards: [{
+				id: "430578AF6A3763C9"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "0E0E031B4C1B74B4"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7FCCA8212D4DD48C"]
+			id: "570E549F5ACA510C"
+			rewards: [{
+				id: "4C4774AA31DE00E4"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/obtain_crying_obsidian"
+				criterion: ""
+				id: "5D97A3679269E797"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7FCCA8212D4DD48C"]
+			id: "47EF749155DB4FF9"
+			rewards: [{
+				id: "5076AB2EC5BE2D1E"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/ride_strider"
+				criterion: ""
+				id: "30A49CD3F93DC407"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7D7B0A6CB17DEE21"]
+			id: "27558B2922C8FDD7"
+			rewards: [{
+				count: 5
+				id: "1E7C5EA3E052E2E4"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:nether/uneasy_alliance"
+				criterion: ""
+				id: "1C1DA62EEF9987A1"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["61C71EF87925E0BC"]
+			id: "6E7FA272CF2BD8D4"
+			rewards: [{
+				count: 5
+				id: "4E3313A755799096"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "nova_structures:nether/find_piglins"
+				criterion: ""
+				id: "4747844914FF4B79"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["61C71EF87925E0BC"]
+			id: "5EFD9F0A42F658C4"
+			rewards: [{
+				id: "0B3C4178CC743275"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/loot_bastion"
+				criterion: ""
+				id: "5C6B2247D459647A"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E7FA272CF2BD8D4"]
+			id: "3A1CDA9F3A30B34F"
+			rewards: [{
+				id: "2E3A9331FA3BD563"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "nova_structures:nether/find_piglin_outpost"
+				criterion: ""
+				id: "7C685F5C3CF9B73A"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6E7FA272CF2BD8D4"]
+			id: "528FF096AB7D1306"
+			rewards: [{
+				id: "04826813688E8622"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "nova_structures:nether/find_hamlet"
+				criterion: ""
+				id: "5D9B8B4B35D57F37"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6E7FA272CF2BD8D4"]
+			id: "4E4DC7857AD9B16E"
+			rewards: [{
+				id: "1359BBC1ECE6DE63"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "nova_structures:nether/find_donjon"
+				criterion: ""
+				id: "48A96B69C06E60BE"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["640A5C49508DB58C"]
+			id: "1FB8401CE1BFB2C8"
+			rewards: [{
+				count: 5
+				id: "45A4CB3CFD2719E2"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+				id: "78937363D6118F74"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["640A5C49508DB58C"]
+			id: "75A46FA1BC5A64EA"
+			rewards: [{
+				id: "355A9E11B4513EB0"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/use_lodestone"
+				criterion: ""
+				id: "3A36D0257D1E03E7"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E7CF4DFB9DB4814"]
+			id: "0A7FB49122BED165"
+			rewards: [{
+				count: 5
+				id: "751A6DE6D770C84D"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "nova_structures:nether/find_nether_skeleton"
+				criterion: ""
+				id: "7DD07438D09F506F"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E7CF4DFB9DB4814"]
+			id: "41F18BFEA8837423"
+			rewards: [{
+				id: "04A06674E673868E"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/get_wither_skull"
+				criterion: ""
+				id: "26A293064636B18A"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E7CF4DFB9DB4814"]
+			id: "6BEB7579BDC5F08A"
+			rewards: [{
+				id: "773729D83E4FD236"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/obtain_blaze_rod"
+				criterion: ""
+				id: "33F0F724D8F447FB"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["570E549F5ACA510C"]
+			id: "2648607BFF120918"
+			rewards: [{
+				id: "194755565789DA57"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/charge_respawn_anchor"
+				criterion: ""
+				id: "3103D479290ABC92"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["47EF749155DB4FF9"]
+			id: "6CD0C05C3DCA5630"
+			rewards: [{
+				count: 5
+				id: "190EA1042F504FC0"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "723F7746FE4FC8C3"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["47EF749155DB4FF9"]
+			id: "420DC6496E48739B"
+			rewards: [{
+				id: "578631C3AFF7968B"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/ride_strider_in_overworld_lava"
+				criterion: ""
+				id: "31C151EA7FB3293F"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0A7FB49122BED165"]
+			id: "1114D3CA1D7535E3"
+			rewards: [{
+				id: "433426CC931C9CDF"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "nova_structures:nether/find_skeleton_tower"
+				criterion: ""
+				id: "7E3028E454E18C35"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0A7FB49122BED165"]
+			id: "132A5EA747334F10"
+			rewards: [{
+				id: "3D96B8E0F5B09730"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "nova_structures:nether/find_keep"
+				criterion: ""
+				id: "042E1CB9B607DC1D"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0A7FB49122BED165"]
+			id: "51D822FF28267C9E"
+			rewards: [{
+				id: "484250DFAF1D17D6"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "nova_structures:nether/find_port"
+				criterion: ""
+				id: "1C837D54CF464E6F"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["132A5EA747334F10"]
+			id: "3E47F4E2489D2650"
+			rewards: [{
+				count: 5
+				id: "4490199D897C126A"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "nova_structures:nether/powder_snow_keep"
+				criterion: ""
+				id: "3594FE96491E990A"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["41F18BFEA8837423"]
+			id: "31D3A736142645DC"
+			rewards: [{
+				id: "15937BDA116A764D"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+				id: "73AA54E71E83EC1B"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["31D3A736142645DC"]
+			id: "50E407E094F22B68"
+			rewards: [{
+				id: "5FB58236D094241B"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/create_beacon"
+				criterion: ""
+				id: "5ACD676ADECC5978"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["50E407E094F22B68"]
+			id: "2D1A2345941EAFB5"
+			rewards: [{
+				count: 2
+				id: "57B45400D8CBC5E2"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				advancement: "minecraft:nether/create_full_beacon"
+				criterion: ""
+				id: "53C351AD46E4A020"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["50E407E094F22B68"]
+			id: "28AC666C22299B29"
+			rewards: [{
+				id: "0379DB310FE93429"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "quark:redirect_beacon"
+				criterion: ""
+				id: "70936F141B895148"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6BEB7579BDC5F08A"]
+			id: "2E03B1224DFAB6E2"
+			rewards: [{
+				count: 2
+				id: "64AAAF8D8FB99699"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				advancement: "quark:watcher_center"
+				criterion: ""
+				id: "080A26B899EF4506"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6BEB7579BDC5F08A"]
+			id: "204025FD8F7FEEB3"
+			rewards: [{
+				id: "0F530E199D2A5A78"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/brew_potion"
+				criterion: ""
+				id: "1F20E6F68830D23E"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["204025FD8F7FEEB3"]
+			id: "0E1F944D4C34A95C"
+			rewards: [{
+				count: 5
+				id: "6BF295F671C78F35"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:nether/all_potions"
+				criterion: ""
+				id: "6B04F4E1459089A3"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["204025FD8F7FEEB3"]
+			id: "70DC3A6616B45705"
+			rewards: [{
+				id: "06E17CB0ADAF405F"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "quark:tame_foxhound"
+				criterion: ""
+				id: "5343ABDF4B4E571E"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0E1F944D4C34A95C"]
+			id: "65CE0C5FF0E16D0A"
+			rewards: [{
+				count: 5
+				id: "12B0D92ED3B30416"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:nether/all_effects"
+				criterion: ""
+				id: "41190ED341C0CD61"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["70DC3A6616B45705"]
+			id: "4D6D2627F13E97B8"
+			rewards: [{
+				count: 2
+				id: "4592B61ECCADED51"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				advancement: "quark:foxhound_speed_up_furnace"
+				criterion: ""
+				id: "19ED873AB6061E02"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Nether Coins in circulation from Advancements:"
+				"- Normal: 24"
+				"- Uncommon: 6"
+				"- Epic: 50"
+				""
+				"Total: 80"
+			]
+			disable_toast: true
+			icon: "kubejs:nether_coin"
+			id: "29B63F023C914BE5"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "1C92AB537745382A"
+				title: "NETHER COIN COUNT"
+				type: "checkmark"
+			}]
+			title: "NETHER COINS"
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Nether Coins in circulation from Advancements:"
+				"- Normal: 4"
+				"- Uncommon: 10"
+				"- Epic: 5"
+				""
+				"Total: 19"
+			]
+			disable_toast: true
+			icon: "kubejs:end_coin"
+			id: "77B217A7E019EFDE"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "15BC941E417CBE5F"
+				title: "END COINS"
+				type: "checkmark"
+			}]
+			title: "END COINS"
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65F303ED16CA6F01"]
+			id: "348C446B1F173B74"
+			rewards: [{
+				id: "23CFECEB7688C24C"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+				id: "4991228E580E0BF0"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Nether Coins in circulation from Advancements:"
+				"- Normal: 17"
+				"- Uncommon: 2"
+				"- Epic: 20"
+				""
+				"Total: 39"
+			]
+			disable_toast: true
+			icon: "kubejs:copper_coin"
+			id: "44F5DDF6CBB68E2E"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "75D681098705F8D7"
+				title: "COPPER COINS"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+	]
+	subtitle: ["The heart and story of the game"]
+	title: "Minecraft"
+}

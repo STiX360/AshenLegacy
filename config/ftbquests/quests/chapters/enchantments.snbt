@@ -1,0 +1,647 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enchantments"
+	group: "39E91E38DCB87D84"
+	id: "6D80A599CCFAECDB"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:textures/mob_effect/bad_omen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/fishing_rod"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/leather_horse_armor"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/shield"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/bow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/crossbow_standby"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -0.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&lCurse of Fatigue&r is an enchantment that makes all actions slower."
+				""
+				"On items mine, attack, bowstring and swing speed are decreased by 20%/36%/48.8%."
+				""
+				"On armor pieces move speed is decreased by 5%/9.7%/14.2%/18.5%/22.6%/26.5%/30.2%/33.6%/37%/40.1%/43.1%/46% (bonus is cumulative)."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "majruszsenchantments:fatigue_curse"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "041FDD26F13CFE86"
+			rewards: [{
+				id: "77044CDE36EEA7B3"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:fatigue_curse"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "46B1839F7D3B40D1"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "75145DF990BF5E35"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+			]
+			title: "Curse of Fatigue"
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&lArmored Caravan&r is an enchantment that increases horse's armor."
+				""
+				"The armor is increased by &l2&r per enchantment level."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "majruszsenchantments:fatigue_curse"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "5CAA65EDBEB82295"
+			rewards: [{
+				id: "7F059934DCD5554C"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:horse_protection"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "10ED04F015C78C26"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "36BB6CD103073B8A"
+					points: false
+					type: "xp"
+					value: 5L
+				}
+			]
+			title: "Armored Caravan"
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			description: ["&lFrost Rider&r is an enchantment that freezes nearby water."]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "majruszsenchantments:fatigue_curse"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "7BCF9689FBDD2425"
+			rewards: [{
+				id: "26C5966FFB5D406C"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:horse_frost_walker"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "4FC040CD621BCD90"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "57A5E7D4E7DA51EC"
+					points: false
+					type: "xp"
+					value: 5L
+				}
+			]
+			title: "Frost Rider"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&lSwiftness&r is an enchantment that increases horse's movement speed."
+				""
+				"The movement speed is increased by &l12.5%&r per enchantment level."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "majruszsenchantments:fatigue_curse"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "5831C5AC457EBFBB"
+			rewards: [{
+				id: "1B4365CA7CF78AB6"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:horse_swiftness"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "1021C52DF7B2E703"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "154BA370845E3453"
+					points: false
+					type: "xp"
+					value: 5L
+				}
+			]
+			title: "Swiftness"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&lFuse Cutter&r is an enchantment that cancels nearby explosions."
+				""
+				"The explosion is canceled only if it is within a &l3 block radius&r and the player is blocking with a shield."
+				""
+				""
+				"&lNote:&r This Enchantment is currently disabled."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "majruszsenchantments:fatigue_curse"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "0A10EF1A734113D1"
+			tasks: [
+				{
+					consume_items: true
+					id: "74D7F055CABB6E92"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "1F375515E7F03FF5"
+					points: false
+					type: "xp"
+					value: 5L
+				}
+			]
+			title: "Fuse Cutter"
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&lImmortality&r is an enchantment that saves owner from death."
+				""
+				"The enchantment is removed from the shield when saving owner's life."
+				""
+				"&lNote:&r This Enchantment is currently disabled."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "majruszsenchantments:fatigue_curse"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "267CA0C99F4C0013"
+			rewards: [{
+				id: "7E575C496086EFE9"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:immortality"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "1102F72FA84EDD56"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "67EBF95019A0FC20"
+					points: false
+					type: "xp"
+					value: 5L
+				}
+			]
+			title: "Immortality"
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&lRepulsion&r is an enchantment that knocks back mobs."
+				""
+				"If the player is blocking with a shield, mobs will be knocked back a few blocks."
+				""
+				"&lNote:&r This Enchantment is currently disabled."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "majruszsenchantments:fatigue_curse"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "74502CB3B2A9B07D"
+			rewards: [{
+				id: "3B00B244641EDE1B"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:repulsion"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "7608AA34871B83FB"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "1AB2808E35E5DC0C"
+					points: false
+					type: "xp"
+					value: 5L
+				}
+			]
+			title: "Repulsion"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&lFishing Fanatic&r is an enchantment that Increases the amount and quality of fished loot."
+				""
+				"Each level gives a separate &l33.3%&r chance to catch an extra item that is affected by Luck."
+				""
+				"The damage dealt by Fishing Rod is increased by 1 health point per enchantment level and attack speed is multiplied by &lx0.5&r per enchantment level."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "majruszsenchantments:fatigue_curse"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "52F92CA4793E18F9"
+			rewards: [{
+				id: "7527FE4A309118B5"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:fishing_fanatic"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "45A0D3A660D99753"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "1DCA5A1C5BB22597"
+					points: false
+					type: "xp"
+					value: 15L
+				}
+			]
+			title: "Fishing Fanatic"
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&lHunter&r is an enchantment that increases loot gained from killed mobs and scales damage with distance to mob."
+				""
+				"The damage is increased by 1% / 2% / 3% per enchantment level for each block further from the target with initial -10% / -20% / -30% penalty. "
+				""
+				"Extra loot works the same way as &lLooting&r on swords does."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "majruszsenchantments:fatigue_curse"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "6FA2C04A44F3817E"
+			rewards: [{
+				id: "074BB02A0B402D6D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:hunter"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Rarity: Rare"
+			tasks: [
+				{
+					consume_items: true
+					id: "74E0E06A40C086B7"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "18481964969FC15D"
+					points: false
+					type: "xp"
+					value: 15L
+				}
+			]
+			title: "Hunter"
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&lTelekinesis&r is an enchantment that automatically adds items to the inventory whenever possible, such as when mining blocks and killing mobs."
+				""
+				"- Rarity: Uncommon"
+				"- Max. Level: I"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "majruszsenchantments:fatigue_curse"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "33C597C4187B3D1C"
+			rewards: [{
+				id: "0D5683A49AF916BF"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:telekinesis"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Rarity: Uncommon"
+			tasks: [
+				{
+					consume_items: true
+					id: "117B5412303AB533"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "7B09198A6205ACFE"
+					points: false
+					type: "xp"
+					value: 15L
+				}
+			]
+			title: "Telekinesis"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"As if it weren't powerful enough, &lMending&r has had some improvements!"
+				""
+				"Now you may &lsneak + right-click&r with an item that has Mending on it in your hand to repair it using your experience."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "majruszsenchantments:fatigue_curse"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "521088F01A64459F"
+			rewards: [{
+				id: "3E3BEFD86853A90C"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "3F6311DDD363C190"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "5C6BF57F78DC5F1A"
+					points: false
+					type: "xp"
+					value: 30L
+				}
+			]
+			title: "Mending"
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Summon ammunition from thin air."
+				"You no longer need any arrorws to shoot your bow."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "majruszsenchantments:fatigue_curse"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "39AC2E6694A765D0"
+			rewards: [{
+				id: "279F2DD60984FC8F"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:infinity"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "26C07737D647E7A6"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "222A0CC310D1BBB6"
+					points: false
+					type: "xp"
+					value: 30L
+				}
+			]
+			title: "Infinity"
+			x: -7.0d
+			y: -4.5d
+		}
+	]
+	title: "Enchantments"
+}

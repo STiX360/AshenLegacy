@@ -1,0 +1,543 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "test"
+	group: "29B81E2E226C5F11"
+	icon: "minecraft:ender_pearl"
+	id: "5743EB0A48F442AD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "342AAE8D090EDC5A"
+			tasks: [{
+				id: "47E85E13125C1F8C"
+				title: "Getting Around"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["342AAE8D090EDC5A"]
+			id: "3A9D0D44BDE8038C"
+			tasks: [{
+				id: "6D5657FB74C5474E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:boats"
+					}
+				}
+				title: "Any #minecraft:boats"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3A9D0D44BDE8038C"]
+			id: "240C5E5B0C9B8767"
+			tasks: [{
+				id: "298F8838E3920825"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:cogs"
+					}
+				}
+				title: "Any #smallships:cogs"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["240C5E5B0C9B8767"]
+			id: "2AF5853E3443AAED"
+			tasks: [{
+				id: "7A90E08BAA2DDEF9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:briggs"
+					}
+				}
+				title: "Any #smallships:briggs"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["240C5E5B0C9B8767"]
+			id: "55B9F7BA38820FD2"
+			tasks: [{
+				id: "5392EAFF7F782914"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:galleys"
+					}
+				}
+				title: "Any #smallships:galleys"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["240C5E5B0C9B8767"]
+			id: "633E0DC8FC9373C7"
+			tasks: [{
+				id: "77CE8DE2DD407715"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:drakkars"
+					}
+				}
+				title: "Any #smallships:drakkars"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["342AAE8D090EDC5A"]
+			id: "45EF8E3AD6819EB9"
+			rewards: [{
+				id: "08C52D0B385D9D46"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				consume_items: false
+				id: "32D2A42D3CFBE7F1"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47370C87AA5D63A3"]
+			description: [
+				"A reusable teleportation item that lets you travel to any discovered Waystone."
+				""
+				"⏳ &oHas a cooldown between uses. Doesn’t require binding — just activate and choose a destination.&r"
+			]
+			id: "698C609C5175BD31"
+			rewards: [{
+				id: "0CBCA6E7005235CC"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "A shard of fractured paths — it listens only to your will."
+			tasks: [{
+				id: "49EDD27069A79C76"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47370C87AA5D63A3"]
+			description: [
+				"Allows one-time teleportation to any activated Waystone."
+				""
+				"🧾 &oGreat for emergencies or for adventurers traveling light. Consumed on use.&r"
+			]
+			id: "5E1C618EB94043CF"
+			rewards: [{
+				id: "28AC9D44D7013085"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "A single-use whisper to the stonebound — fleeting, but faithful."
+			tasks: [{
+				id: "58678FF96B48F869"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["698C609C5175BD31"]
+			description: [
+				"Place to create a fast travel anchor. Players can teleport between activated Waystones."
+				""
+				"🧭 &oCan be named and activated by right-clicking. Requires XP to teleport.&r"
+			]
+			id: "56EA0CFBA072E8BD"
+			rewards: [{
+				id: "0A8294A0D6BFC50B"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "Etched in ancient glyphs, these stones hum with the memory of travel."
+			tasks: [{
+				id: "25163A31D7DF87EC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "waystones:waystones"
+					}
+				}
+				title: "Any #waystones:waystones"
+				type: "item"
+			}]
+			title: "Waystone"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47370C87AA5D63A3"]
+			description: [
+				"This mystical scroll allows you to bind yourself to a Waystone of your choosing. Once linked, simply activate the scroll to be whisked back to that very Waystone—no matter how far your journey has taken you."
+				""
+				"🪄 &oRight-click a Waystone to bind the scroll. Use the scroll to return when you're ready.&r"
+			]
+			id: "1CCA29D12AA9C50A"
+			rewards: [{
+				id: "7C70FE89839D187A"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "Folded with runes and bound by intent, this parchment remembers your path."
+			tasks: [{
+				id: "6AFA1C621023BA41"
+				item: "waystones:return_scroll"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["47370C87AA5D63A3"]
+			description: [
+				"Right-click a Waystone to bind this scroll to it. Use it later to teleport back to that specific location."
+				""
+				"🧲 &oSingle-use. Perfect for marking a home base or getaway point.&r"
+			]
+			id: "49B60F166AF343A5"
+			rewards: [{
+				id: "0A9E06D620B43C13"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "A tether forged in parchment — it knows only one place, but knows it well."
+			tasks: [{
+				id: "04D3B5B35EA0D64B"
+				item: "waystones:bound_scroll"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47370C87AA5D63A3"]
+			description: [
+				"The Warp Plate offers a hands-free teleportation method when paired with the right magic. Simply stepping onto it will send you to a linked Warp Plate — perfect for base hubs, public travel networks, or trapdoor surprises."
+				"{@pagebreak}"
+				""
+				"🔗 To link a Warp Plate:"
+				"- Right-click a Warp Plate to acquire a Attuned Shard — the shard is bound to that Warp Plate."
+				"- Then right-click another Warp Plate and insert the Attuned Shard — this sets the Warp Plate’s destination."
+				"- The plate will now teleport players to that specific Warp Pad whenever they step on it."
+				""
+				"🎯 No XP cost by default. Does not require the Waystone to be globally activated — only discovered."
+			]
+			id: "2E74E6A8C328A0ED"
+			rewards: [{
+				id: "54FDFD9717766614"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "Wrought from stone and purpose — step with intent, arrive in an instant."
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "7C7BE0C30873AA68"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["698C609C5175BD31"]
+			description: [
+				"The Sharestone acts like a public Waystone, offering instant travel for anyone nearby — no discovery required. Great for team bases, hubs, or community teleport points."
+				""
+				"🔗 &oUnlike standard Waystones, Sharestones don’t require players to discover them first. Anyone can use them, no attunement needed.&r"
+				""
+				"📡 &oMultiple Sharestones of the same color are linked together — stepping on one teleports you to the next.&r"
+				""
+				"🎨 &oDye the Sharestone with colors and consider grouping your Sharestones by function or location.&r"
+			]
+			id: "2FAFD9B866C4CF7D"
+			rewards: [{
+				id: "7BDB55796A5B61E7"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "Not all paths are walked alone — some are opened for others."
+			tasks: [{
+				consume_items: false
+				id: "76596BCBD92CC56E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "waystones:sharestones"
+					}
+				}
+				type: "item"
+			}]
+			title: "Sharestone"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["698C609C5175BD31"]
+			description: [
+				"The Portstone acts like a &lone-way Waystone&r. You can teleport &lfrom&r it to any other discovered Waystone, but you &lcannot teleport back&r to the Portstone itself."
+				""
+				"🧭 &oIdeal for temporary outposts, dimensional gateways, or one-way travel hubs.&r"
+				""
+				"🌐 &oBehaves like a Waystone, except it cannot be selected as a destination.&r"
+			]
+			id: "7ECA1AAD063D45CF"
+			rewards: [{
+				id: "375A47060E6F4335"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "Not all stones mark a destination — some are just the beginning of the journey."
+			tasks: [{
+				id: "7E59F3716D02C5B6"
+				item: "waystones:portstone"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45EF8E3AD6819EB9"]
+			description: [
+				"Warp Dust is the magical material at the heart of all Waystone-related travel. Used as a core material in crafting Warp Scrolls, Return Scrolls, Portstones, and more."
+				""
+				"🧪 &oHarvested from the magic of the world and then crafted as dimensional fragments. Stockpile it — your journeys will demand it."
+				"&r"
+				"🔧 &o&lCrafting Component Only&r — not usable on its own, but essential for travel.&r"
+			]
+			id: "47370C87AA5D63A3"
+			rewards: [{
+				id: "15B411F9D95CB591"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "Crushed echoes of ancient travel — the raw essence of teleportation."
+			tasks: [{
+				count: 4L
+				id: "0B331B2AB0B76F9F"
+				item: "waystones:warp_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17B7572DCD6A6C48"]
+			description: [
+				"Dropped by Warped Forest Endermen, this pearl grants Resistance to the player upon landing."
+				""
+				"🛡 &oA sturdy choice for risky dives or mid-combat repositioning.&r"
+			]
+			id: "339586F0CB126327"
+			rewards: [{
+				id: "2DADDCB4C82EEB9F"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "Infused with twisted resilience — it carries its own landing cushion."
+			tasks: [{
+				id: "03DFD7B1EDE43B61"
+				item: "endermanoverhaul:warped_pearl"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17B7572DCD6A6C48"]
+			description: [
+				"Dropped by End Islands Endermen, this rare pearl summons pet Endermen to fight by your side."
+				"Right-click again to recall them instantly."
+				""
+				"🛐 &oCall on ancient allies in times of need — or just to look extra cool.&r"
+			]
+			id: "6230C0542A0655A3"
+			rewards: [{
+				id: "614E012AF766DAD7"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "Old as the void — its loyalty bound by time."
+			tasks: [{
+				id: "2F6F6B3167C3C1F1"
+				item: {
+					Count: 1
+					id: "endermanoverhaul:ancient_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17B7572DCD6A6C48"]
+			description: [
+				"Dropped by Ice Spikes Endermen, this pearl freezes nearby enemies where it lands."
+				""
+				"🧊 &oIdeal for crowd control or locking down chokepoints.&r"
+			]
+			id: "61B2C02414A2CA06"
+			rewards: [{
+				id: "29B0494A9BE9BF77"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "Cold as regret — and twice as unforgiving."
+			tasks: [{
+				id: "4B06039F1B90E99F"
+				item: "endermanoverhaul:icy_pearl"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17B7572DCD6A6C48"]
+			description: [
+				"Dropped by Ocean Endermen, this pearl sails through the air, unaffected by gravity."
+				""
+				"🎈 &oGreat for throwing at awkward angles or into areas below you. It flys like a dream.&r"
+			]
+			id: "114AE6C72060074F"
+			rewards: [{
+				id: "5E3D97AEE06D52D2"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "Weightless and drifting — a pearl that floats where the winds would dare not."
+			tasks: [{
+				id: "733B1EBDF05BE21D"
+				item: "endermanoverhaul:bubble_pearl"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17B7572DCD6A6C48"]
+			description: [
+				"Dropped by Crimson Forest Endermen, this pearl grants Strength to the player upon landing."
+				""
+				"💪 &oTurn your teleport into a prelude to pain.&r"
+			]
+			id: "090F617BE1B2BD76"
+			rewards: [{
+				id: "4A505A1770D3F975"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "Burns with reckless fury — a burst of power when it counts."
+			tasks: [{
+				id: "5A5E35B4934D1C1A"
+				item: "endermanoverhaul:crimson_pearl"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["45EF8E3AD6819EB9"]
+			description: [
+				"You’ve heard rumors of strange Endermen touched by their environment — and stranger pearls they leave behind."
+				""
+				"🔍 &oTrack them down. Collect what they leave behind.&r"
+			]
+			id: "17B7572DCD6A6C48"
+			rewards: [{
+				id: "66C87E516D8D47CF"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "Obtain any special pearl."
+			tasks: [{
+				id: "00AB1977F5054BFF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "endermanoverhaul:ender_pearls"
+					}
+				}
+				type: "item"
+			}]
+			title: "Relics of the Riftborn"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"339586F0CB126327"
+				"090F617BE1B2BD76"
+				"6230C0542A0655A3"
+				"61B2C02414A2CA06"
+				"114AE6C72060074F"
+			]
+			description: [
+				"You’ve traversed the realms, hunted the twisted, and mastered the throw."
+				"What once belonged to the Endermen — now answers to you."
+				""
+				"🌌 &oTeleport. Freeze. Summon. Dominate.&r"
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "1F0A18B231E74C3E"
+			rewards: [{
+				id: "3AF515F3531A1986"
+				item: "artifacts:chorus_totem"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Collect all 5 special pearls."
+			tasks: [{
+				id: "3712F58C3671DF63"
+				title: "Master of Pearls"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+	]
+	title: "Travel \\& Transportation"
+}

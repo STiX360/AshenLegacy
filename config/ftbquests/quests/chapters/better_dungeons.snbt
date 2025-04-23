@@ -1,0 +1,317 @@
+{
+	autofocus_id: "785868F1DAC1D068"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "better_dungeons"
+	group: "25D3E238ED149444"
+	icon: "minecraft:mossy_stone_bricks"
+	id: "7C6D8A2C8220E4D0"
+	images: [{
+		height: 3.0d
+		image: "explorerscompass:item/explorerscompass_12"
+		rotation: 0.0d
+		width: 3.0d
+		x: -7.5d
+		y: 3.5d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["78D4C3ED84C0ECF9"]
+			id: "7F3911F41745A483"
+			tasks: [{
+				advancement: "betterdungeons:small_dungeon"
+				criterion: ""
+				id: "79F4FA0584F7A343"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78D4C3ED84C0ECF9"]
+			id: "5BBBE23C7D6D719A"
+			tasks: [{
+				advancement: "betterdungeons:zombie_dungeon"
+				criterion: ""
+				id: "19AF08015AD60560"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78D4C3ED84C0ECF9"]
+			id: "52F179E3361B7B05"
+			tasks: [{
+				advancement: "betterdungeons:all_dungeons"
+				criterion: ""
+				id: "07E8584B53B32F11"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78D4C3ED84C0ECF9"]
+			id: "2DD0B10A55BD1427"
+			tasks: [{
+				advancement: "betterdungeons:spider_dungeon"
+				criterion: ""
+				id: "2C836C73D6C7A96B"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78D4C3ED84C0ECF9"]
+			id: "6C249C29F907B401"
+			tasks: [{
+				advancement: "betterdungeons:skeleton_dungeon"
+				criterion: ""
+				id: "5063247A3D8D2180"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			id: "78D4C3ED84C0ECF9"
+			tasks: [{
+				advancement: "betterdungeons:root"
+				criterion: ""
+				id: "751030F04C66E318"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "4FC704946F735B79"
+			tasks: [{
+				advancement: "betterdeserttemples:root"
+				criterion: ""
+				disable_toast: true
+				id: "2DB44C964FB0F4AE"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4FC704946F735B79"]
+			id: "25C897F86ABF09B8"
+			tasks: [{
+				advancement: "betterdeserttemples:temple_entry"
+				criterion: ""
+				id: "7758C2E044B2A9D1"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25C897F86ABF09B8"]
+			id: "7B272CD8DB71BEEF"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "betterdeserttemples:temple_clear"
+				criterion: ""
+				id: "1E2DDA384DB34FF6"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "785868F1DAC1D068"
+			tasks: [{
+				advancement: "dungeons_enhanced:root"
+				criterion: ""
+				id: "38580C35607CE062"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["785868F1DAC1D068"]
+			id: "2519E39936A306EA"
+			tasks: [{
+				advancement: "dungeons_enhanced:chilled_halls"
+				criterion: ""
+				id: "368CA646915DFA8D"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["785868F1DAC1D068"]
+			id: "48431D7D4DB72F4D"
+			tasks: [{
+				advancement: "dungeons_enhanced:wars_and_kingdoms"
+				criterion: ""
+				id: "504DC70A8DC6A8FB"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["785868F1DAC1D068"]
+			id: "0D0F05DACAA64719"
+			tasks: [{
+				advancement: "dungeons_enhanced:in_the_air"
+				criterion: ""
+				id: "14635917F5C73EAD"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["785868F1DAC1D068"]
+			id: "68C0FD4C491EFF30"
+			tasks: [{
+				advancement: "dungeons_enhanced:ahoy"
+				criterion: ""
+				id: "1BA275F85D9B17DA"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["785868F1DAC1D068"]
+			id: "1FFAB45E94609719"
+			tasks: [{
+				advancement: "dungeons_enhanced:traps_and_curses"
+				criterion: ""
+				id: "39668A8C4FADCE22"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["785868F1DAC1D068"]
+			id: "3410D8B9E4F5EF3C"
+			tasks: [{
+				advancement: "dungeons_enhanced:hidden_under_the_roots"
+				criterion: ""
+				id: "6917DC1ADABC69E2"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["785868F1DAC1D068"]
+			id: "558488092EEDE136"
+			tasks: [{
+				advancement: "dungeons_enhanced:spooky_scary_citadel"
+				criterion: ""
+				id: "5E8CBE7BEA85EDEB"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["785868F1DAC1D068"]
+			id: "5D1C1602CE43A638"
+			tasks: [{
+				advancement: "dungeons_enhanced:rarest_structure"
+				criterion: ""
+				id: "4B57A73AE6D7745B"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["785868F1DAC1D068"]
+			id: "1059844F50E4EEB1"
+			tasks: [{
+				advancement: "dungeons_enhanced:ancient_civilizations"
+				criterion: ""
+				id: "2FEC092E45012663"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["785868F1DAC1D068"]
+			id: "2C8E32E44B1271A2"
+			tasks: [{
+				advancement: "dungeons_enhanced:thats_a_dungeon"
+				criterion: ""
+				id: "26B91EF829807904"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["785868F1DAC1D068"]
+			id: "7CE75401E0727DD8"
+			tasks: [{
+				advancement: "dungeons_enhanced:sunken_deeps"
+				criterion: ""
+				id: "4A18E9BA8436C999"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["785868F1DAC1D068"]
+			id: "4522AD63BE1AC13B"
+			shape: "pentagon"
+			tasks: [{
+				advancement: "dungeons_enhanced:seven_world_wonders"
+				criterion: ""
+				id: "34D119DAE96B8BA7"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4522AD63BE1AC13B"]
+			id: "6912FB88FE742897"
+			shape: "octagon"
+			tasks: [{
+				advancement: "dungeons_enhanced:ambitious_explorer"
+				criterion: ""
+				id: "1DC4B19FE298D2E0"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				""
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"743B7531599A8E98\" } }"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"454101ABB5D16A00\" } }"
+			]
+			id: "7D4DD3615A840045"
+			tasks: [{
+				advancement: "quark:pathfinder_map_center"
+				criterion: ""
+				id: "0D970D4FA3684D08"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+	]
+	title: "Seeking Structures"
+}

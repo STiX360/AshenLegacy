@@ -6,22 +6,22 @@ Whether you're setting up for a small group of friends or managing a large publi
 
 ## 📂 Contents
 
-- [Getting Started](admins/getting-started.md)  
+- [Getting Started](getting-started)  
   Initial setup, minimum specs, server jar selection, and general installation instructions.
 
-- [Performance Tweaks](performance-tweaks.md)  
+- [Performance Tweaks](performance-tweaks)  
   Key configuration changes and mod recommendations to reduce lag and improve TPS.
 
-- [Recommended Config](recommended-config.md)  
+- [Recommended Config](recommended-config)  
   Suggested settings for major mods and systems, including spawn rates, worldgen, and gameplay balance.
 
-- [Mod-Specific Tips](mod-tips.md)  
+- [Mod-Specific Tips](mod-tips)  
   Admin tips and gotchas for high-impact mods in the pack.
 
-- [Crash Handling](crash-handling.md)  
+- [Crash Handling](crash-handling)  
   Step-by-step guides on reading logs, isolating mod issues, and resolving startup crashes.
 
-- [Backup & Recovery](backup-recovery.md)  
+- [Backup & Recovery](backup-recovery)  
   Automated backup strategies and world rollback tools.
 
 ## 💡 Best Practices

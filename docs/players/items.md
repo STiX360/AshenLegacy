@@ -24,6 +24,7 @@ These small cactus plants grow [Prickly Peaches](#prickly-peaches) that you can 
 ### Prickly Vines
 A new vegetation that can be dangerous to path through, but can be used to climb up certain spaces.
 
+## Enchantments
 ## Food
 
 ### Prickly Peaches

@@ -23,10 +23,10 @@ Aptitudes aren’t just passive stats—they influence:
 ## 🛠️ Tips for Building Aptitudes
 
 - **Hybrid Build**: You can be a jack of all trades, if you're willing to be the master of none.
-	- By spec'ing into multiple stats, you can obtain a well-rounded level of power.  Just enough Strength to wield that sword, just enough Intelligence to decipher that [Enchanted Book](items#enchanted-books), etc.
+	- By spec'ing into multiple stats, you can obtain a well-rounded level of power.  Just enough Strength to wield that sword, just enough Intelligence to decipher that [Enchanted Book](items#enchantments), etc.
     
 - **Specialist Builds**: Be the tank, be the builder, be whatever you want.
-	- Focus on one or two actions consistently to create a strong identity.  A particularly strong approach for [party play](party).
+	- Focus on one or two actions consistently to create a strong identity.  A particularly strong approach for [party play](teams.md).
 	
 - **Counter Build**: Alternatively, make up for your deficiencies.
 	- If you're already great at combat, a few extra points of knockback or HP mightn't do much for you - consider how your points could be spent to reduce farming time at your base.

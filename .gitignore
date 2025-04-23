@@ -1,6 +1,5 @@
 ## docs ignore
 docs/.obsidian/
-node_modules/
 
 ## modpack ignore folders
 .mixin.out/

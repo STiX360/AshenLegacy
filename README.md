@@ -23,7 +23,7 @@ Install using the [CurseForge app](https://www.curseforge.com/download) (we reco
 
 ## 📖 Documentation
 
-Ashen Legacy includes both in-game guidance (refer the **Quests** tab) and comprehensive [online documentation]() including:
+Ashen Legacy includes both in-game guidance (refer the **Quests** tab) and comprehensive [online documentation](https://stix360.github.io/AshenLegacy/) including:
 - 🧭 Player Onboarding Guide
 - 📊 Attributes & Skill Trees
 - 🌍 World Generation & Structures

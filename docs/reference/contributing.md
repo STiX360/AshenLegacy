@@ -1,12 +1,10 @@
 # Contributing
 
 There are multiple ways you can contribute to this repository:
-- [Link submissions](#submitting-a-link)
-- [Reporting a site](#reporting-a-site)
+- [Link submissions](#submitting-changes)
 - [Changes to the website itself](#making-changes)
-- [Finding new sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/find-new-sites/)
 
-## Submitting a Page / Edit
+## Submitting Changes
 
 > [!NOTE]
 > If you haven't tested the link you'd like to submit, especially if it's a DDL site, please open an **[Issue](https://github.com/fmhy/edit/issues)** or reach out to us on **[Discord](https://rentry.co/fmhy-invite)** rather than making a Pull Request.
@@ -19,40 +17,6 @@ Please only use the store link if there's neither a site nor a Git repository av
 3. Always check to see if the site you'd like to submit has a Discord / Telegram server you can link with it.
 
 4. Find a suitable category for the link and then submit it by making a **[Pull Request](https://github.com/fmhy/edit/pulls)**.
-
-#### Don't Submit:
-
-**🕹️ Emulators**:
-They're already on the **[Game Tech Wiki](https://emulation.gametechwiki.com/index.php/Main_Page)**.
-
-**🌐 Normal Web Browsers**
-They're already on the **[Browser Index](https://github.com/nerdyslacker/desktop-web-browsers)**, though we accept privacy-based ones.
-
-**🔻 Leeches**:
-They're already on the **[File Hosting Wiki](https://filehostlist.miraheze.org/wiki/Free_Premium_Leeches)**.
-
-**🐧 Distros**:
-They're already on **[DistroWatch](https://distrowatch.com/)**.
-
-**🎲 Mining / Betting Sites**:
-Don't post anything related to betting, mining, BINs, CCs, etc.
-
-**🎮 Multiplayer Game Hacks**:
-Don't post any hacks/exploits that give unfair advantages in multiplayer games.
-
-**🖥️ Custom Operating Systems**
-We don't recommend  people use these.
-
-## Reporting a Site
-
-> [!TIP]
-> If you want to make bigger changes to the wiki, such as debloating or restructuring a page/section, please discuss those changes with us via **[Discord](https://rentry.co/fmhy-invite)** before making a **[Pull Request](https://github.com/fmhy/edit/pulls)**.
-
-You can do one of the following:
-
-- Reach out via the feedback system on any page of our [Website](https://fmhy.net/), or on **[Discord](https://rentry.co/fmhy-invite)** if you'd like to discuss your report.
-
-- Open an **[Issue](https://github.com/fmhy/edit/issues)** or a **[Pull Request](https://github.com/fmhy/edit/pulls)** and don't forget to explain why you think the site(s) in question should be removed, unstarred, and/or changed.
 
 ## Making changes
 

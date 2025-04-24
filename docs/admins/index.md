@@ -9,7 +9,7 @@ Whether you're setting up for a small group of friends or managing a large publi
 - [Getting Started](getting-started)  
   Initial setup, minimum specs, server jar selection, and general installation instructions.
 
-- [Performance Tweaks](performance-tweaks)  
+- [Performance Tweaks](performance.md)  
   Key configuration changes and mod recommendations to reduce lag and improve TPS.
 
 - [Recommended Config](recommended-config)  
@@ -18,7 +18,7 @@ Whether you're setting up for a small group of friends or managing a large publi
 - [Mod-Specific Tips](mod-tips)  
   Admin tips and gotchas for high-impact mods in the pack.
 
-- [Crash Handling](crash-handling)  
+- [Crash Handling](crash-handling.md)  
   Step-by-step guides on reading logs, isolating mod issues, and resolving startup crashes.
 
 - [Backup & Recovery](backup-recovery)  

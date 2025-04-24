@@ -11,11 +11,68 @@ export default {
 		}]
 	],
 	themeConfig: {
+		socialLinks: [
+            { icon: 'github', link: 'https://github.com/stix360/ashenlegacy'}],
+/*		nav : [
+			{
+				text: '🔖 Glossary',
+				link: 'https://rentry.org/The-Piracy-Glossary'
+			},
+			{
+				text: '💾 Backups',
+				link: 'https://github.com/fmhy/FMHY/wiki/Backups'
+			},
+			{
+				text: '🌱 Ecosystem',
+				items: [{
+						text: '🌐 Search',
+						link: '/posts/search'
+					},
+					{
+						text: '🔗 Bookmarks',
+						link: 'https://github.com/fmhy/bookmarks'
+					},
+					{
+						text: '✅ SafeGuard',
+						link: 'https://github.com/fmhy/FMHY-SafeGuard'
+					},
+					{
+						text: '📋 snowbin',
+						link: 'https://pastes.fmhy.net'
+					},
+					{
+						text: '💡 Site Hunting',
+						link: 'https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/find-new-sites/'
+					},
+					{
+						text: '❓ FAQs',
+						link: 'https://redd.it/xrxen7'
+					},
+					{
+						text: '😇 SFW FMHY',
+						link: 'https://fmhy.xyz/'
+					},
+					{
+						text: '🏠 Selfhosting',
+						link: '/other/selfhosting'
+					},
+					{
+						text: '🏞 Wallpapers',
+						link: '/other/wallpapers'
+					},
+					{
+						text: '💙 Feedback',
+						link: '/feedback'
+					}
+				]
+			}
+		],*/
 		editLink: {
 			pattern: 'https://github.com/STiX360/AshenLegacy/edit/main/docs/:path',
 			text: 'Edit this page on GitHub'
 		},
 		logo: '/logo.svg',
+		externalLinkIcon: 'true',
 		search: {
 			provider: 'local'
 		},
@@ -61,7 +118,7 @@ export default {
 					},
 					{
 						text: 'Performance Tweaks',
-						link: '/admins/performance-tweaks.md'
+						link: '/admins/performance.md'
 					},
 					{
 						text: 'Recommended Config',
@@ -88,6 +145,10 @@ export default {
 					link: 'reference/CHANGELOG'
 				}, ]
 			}
-		]
+		],
+		footer: {
+          message: 'Thanks for your support ❤️',
+          //copyright: 'Copyright © 2019-present Ashen Legacy'
+        }
 	}
 }

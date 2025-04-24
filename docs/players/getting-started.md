@@ -7,6 +7,10 @@ Welcome to **Ashen Legacy**! This guide will help you get started in your first 
 Upon first joining a world, you are prompted to select a starting origin, each with its own strengths, drawbacks, and unique abilities.
 ### 🔰 Tips for Choosing:
 
+::: warning DEV NOTE
+We're currently still balancing the origins, so only Human is currently available as of current patch.
+:::
+
 - **Human** – No bonuses or penalties. A good default if you want to explore freely.
     
 - ~~**Avian** – Increased speed and slow-fall, but can’t eat meat and must stay airborne.~~
@@ -20,10 +24,6 @@ Upon first joining a world, you are prompted to select a starting origin, each w
 - ~~**Blazeborn** – Immune to fire and lava, excels in Nether, but spawns in hostile areas.~~ 
 
 You cannot freely change your origin after selection, so choose wisely!
-
-<Badge type="warning" text="Dev Note" /> 
->We're currently still balancing the origins, so only Human is currently available as of current patch.
- 
 
 ## 🛠️ Step 2: Choose your class
 
@@ -56,12 +56,14 @@ After selecting your origin, you can select a class that can provide various abi
     
 - **Warrior** – You deal +1 attack damage with every weapon; you are slowed less when using a shield.
 
+::: warning DEV NOTE
+We're currently still balancing the classes, so expect significant changes — however all are currently available to play.
+:::
 Each class enhances a core playstyle. Like your origin, you cannot freely change it after selection, so choose based on how you plan to play—whether gathering, supporting, or fighting.
 
 A Warrior Enderian will play very differently than a Cleric Merling. Look for synergy between your Origin and your Class that complements your Origin or reinforces your favorite in-game role — whether it's combat, support, or gathering.
 
-<Badge type="warning" text="Dev Note" /> 
->We're currently still balancing the classes, so expect significant changes — however all are currently available to play.
+
 ## 📈 Step 3: Early Progression
 
 When starting your adventure in Ashen Legacy, you'll be guided through the **Progression** tab of the **Quests** interface (there is a button in your Inventory screen). This is where you'll choose your **starting [Aptitudes](aptitudes)** (like Strength, Dexterity, Intelligence, etc.) and begin shaping your character build.

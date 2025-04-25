@@ -13,8 +13,32 @@ export default {
 	themeConfig: {
 		socialLinks: [
             { icon: 'github', link: 'https://github.com/stix360/ashenlegacy'}],
-/*		nav : [
+		nav : [
 			{
+				text: 'Contributing',
+				link: '/contributing/'
+			},
+			{
+				text: 'About',
+				items: [
+					{
+						text: 'About',
+						link: '/about/'
+				    },
+					{
+						text: 'Team',
+						link: '/about/team'
+				    },
+					{
+						text: 'Contributors',
+						link: '/about/contributors'
+				    },
+					{
+						text: 'License',
+						link: '/about/license'
+				    }],
+			}
+			/*{
 				text: '🔖 Glossary',
 				link: 'https://rentry.org/The-Piracy-Glossary'
 			},
@@ -65,8 +89,8 @@ export default {
 						link: '/feedback'
 					}
 				]
-			}
-		],*/
+			}*/
+		],
 		editLink: {
 			pattern: 'https://github.com/STiX360/AshenLegacy/edit/main/docs/:path',
 			text: 'Edit this page on GitHub'
